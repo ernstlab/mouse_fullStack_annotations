@@ -1,0 +1,148 @@
+---
+title: "Create_heatmap_for_each_state"
+author: "Ha Vu"
+date: "6/11/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyr)
+library(tidyverse)
+library(ggplot2)
+library(dplyr)
+library(pheatmap)
+source('/Users/vuthaiha/Desktop/window_hoff/source/summary_analysis/draw_emission_matrix_functions.R')
+```
+# Get the emission matrix into a dataframe
+```{r}
+emission_fn <- "/Users/vuthaiha/Desktop/window_hoff/ROADMAP_aligned_reads/chromHMM_model/model_100_state/emissions_100.txt"
+output_folder <- "/Users/vuthaiha/Desktop/window_hoff/ROADMAP_aligned_reads/chromHMM_model/model_100_state/emission_results/state_avg_cell_group_and_mark"
+cm_output_folder <- "/Users/vuthaiha/Desktop/window_hoff/ROADMAP_aligned_reads/chromHMM_model/model_100_state/emission_results/cm_based_emission"
+ana_output_folder <- "/Users/vuthaiha/Desktop/window_hoff/ROADMAP_aligned_reads/chromHMM_model/model_100_state/emission_results/ana_based_emission"
+emission_df <- get_emission_df_from_chromHMM_emission(emission_fn)
+num_state <- 100
+num_exp <- 1032
+```
+# get the count of each annotation category
+```{r}
+count_chrom_mark_GROUP <- emission_df %>% select(c('mark_names', 'chrom_mark', 'GROUP')) %>% group_by(chrom_mark, GROUP) %>% tally() %>% rename('count' = 'n')
+count_chrom_mark_GROUP <- count_chrom_mark_GROUP %>% dcast(chrom_mark ~ GROUP , value.var = 'count') %>% replace(., is.na(.), 0)
+annot_col_df <- data.frame(cell_GROUP = colnames(count_chrom_mark_GROUP))
+rownames(annot_col_df) <- as.character(colnames(count_chrom_mark_GROUP))
+annot_row_df <- data.frame(chrom_mark = rownames(count_chrom_mark_GROUP))
+rownames(annot_row_df) <- as.character(rownames(count_chrom_mark_GROUP))
+rownames(count_chrom_mark_GROUP) <- count_chrom_mark_GROUP[,1]
+count_chrom_mark_GROUP <- count_chrom_mark_GROUP[,-1]
+pheatmap(count_chrom_mark_GROUP, fontsize = 6, cluster_rows = FALSE, cluster_cols = FALSE, show_colnames = TRUE, fontsize_col = 4.5, angle_col = 90,  display_numbers = count_chrom_mark_GROUP, number_format = '%s', annotation_col = annot_col_df, annotation_row = annot_row_df, annotation_colors = list(cell_GROUP = CELL_GROUP_COLOR_CODE, chrom_mark = CHROM_MARK_COLOR_CODE), color = colorRampPalette(c('white', 'red'))(300), filename = file.path(output_folder, 'count_categories.png'))
+```
+# draw plots for each state on its own figure
+```{r}
+for (state_index in seq(num_state)){
+  state_df <- emission_df %>% select(c("mark_names", paste0("S", state_index), "chrom_mark", "GROUP")) 
+  avg_emission_df <- state_df %>% select (paste0("S", state_index), 'chrom_mark', 'GROUP') %>% group_by(chrom_mark, GROUP) %>% summarise_all(.funs = funs(mean = "mean")) %>% rename(mean_emission = mean) # group by chrom_mark and GROUP, then calculate the mean emission of emission probabilities in this state --> chrom_mark, GROUP, mean_emission
+  avg_emission_df <- avg_emission_df %>% dcast(chrom_mark ~ GROUP , value.var = 'mean_emission') %>% replace(., is.na(.), 0) # put the 3 column data frame into a data frame that are heatmap compatible
+
+  chrom_mark_list <- avg_emission_df %>% select('chrom_mark') # list of chromatin marks, which will later be the row names for the heatmap
+  avg_emission_df <- avg_emission_df[,-1] # get rid of the 'chrom_mark' column because it will become the row names
+  row.names(avg_emission_df) <- chrom_mark_list[,1] # row names are now chrom mark so that can draw a heatmap later
+  this_state_save_fig_fn <- file.path(output_folder, paste0("state", state_index, '_avg_emission.png') )
+  break_list <- seq (0, 1, by = 0.01)
+  annot_col_df <- data.frame(cell_GROUP = colnames(avg_emission_df))
+  rownames(annot_col_df) <- as.character(colnames(avg_emission_df))
+  annot_row_df <- data.frame(chrom_mark = rownames(avg_emission_df))
+  rownames(annot_row_df) <- as.character(rownames(avg_emission_df))
+  pheatmap(avg_emission_df,breaks = break_list, fontsize = 5, cluster_rows = FALSE, cluster_cols = FALSE, show_colnames = TRUE, fontsize_col = 4.5, angle_col = 90, annotation_col = annot_col_df, annotation_row = annot_row_df, display_numbers =  count_chrom_mark_GROUP ,annotation_colors = list(cell_GROUP = CELL_GROUP_COLOR_CODE, chrom_mark = CHROM_MARK_COLOR_CODE), filename = this_state_save_fig_fn)
+  print(paste("Done with state:", state_index))
+}
+```
+# get a data frame avg_emission_df: rows: 'ana_mark_comb' + states, columns: mark-GROUP combination --> cells: avg emission probabilities for each mark-GROUP combination
+```{r}
+avg_emission_df <- emission_df %>% select(-'GROUP', -'COLOR', -'TYPE', -'Epig_name', -'ct')
+mark_name_list <- as.character(avg_emission_df$mark_names)
+rownames(avg_emission_df) <- mark_name_list
+avg_emission_df <- avg_emission_df %>% select(-'mark_names') %>% group_by(chrom_mark, GROUP) %>% summarise_all(funs(mean)) %>% unite("ana_mark_comb",c("GROUP", "chrom_mark"), sep = "-")
+ana_mark_comb_list <- avg_emission_df$ana_mark_comb
+```
+
+# Draw heatmap where we arrange categories by chrom marks
+```{r}
+uniq_chrom_mark_list <- unique(emission_df$chrom_mark)
+plot_df <- data.frame(matrix(ncol = ncol(avg_emission_df) - 1, nrow = 0))
+
+for (cm in uniq_chrom_mark_list){
+  this_cm_df <- avg_emission_df %>% filter(grepl(cm, ana_mark_comb))
+  plot_df <- rbind(plot_df, this_cm_df)
+}
+ana_mark_comb_list <- plot_df$ana_mark_comb
+rownames(plot_df) <- ana_mark_comb_list
+plot_df <- plot_df %>% select(- 'ana_mark_comb')
+# column annotation
+annot_df <- data.frame(chrom_mark = sapply(rownames(plot_df), FUN = get_chrom_mark_name))
+annot_df['GROUP'] <- sapply(rownames(plot_df), FUN = get_mark_ct)
+break_list <- seq (0, 1, by = 0.01)
+
+save_fn <- file.path(output_folder, "avg_chrom_mark_GROUP_grouped_cm.png")
+pheatmap(t(plot_df), breaks = break_list, fontsize = 5, cluster_rows = FALSE, cluster_cols = FALSE, show_colnames = TRUE, fontsize_col = 3, angle_col = 90, annotation_col = annot_df, annotation_colors = list(GROUP = CELL_GROUP_COLOR_CODE, chrom_mark = CHROM_MARK_COLOR_CODE), cellwidth = 3.5 ,filename = save_fn)
+```
+
+```{r}
+break_list <- seq (0, 1, by = 0.01)
+uniq_chrom_mark_list <- unique(emission_df$chrom_mark)
+for (cm in uniq_chrom_mark_list){
+  this_cm_df <- avg_emission_df %>% filter(grepl(cm, ana_mark_comb))
+  ana_mark_comb_list <- this_cm_df$ana_mark_comb
+  this_cm_df <- this_cm_df %>% select(-"ana_mark_comb")
+  rownames(this_cm_df) <- ana_mark_comb_list
+  annot_df <- data.frame(chrom_mark = sapply(ana_mark_comb_list, FUN = get_chrom_mark_name))
+  annot_df['GROUP'] <- sapply(ana_mark_comb_list, FUN = get_mark_ct)
+  save_fn <- file.path(cm_output_folder, paste0(cm, "avg_emission.png"))
+  pheatmap(t(this_cm_df), breaks = break_list, fontsize = 5, cluster_rows = FALSE, cluster_cols = FALSE, show_colnames = TRUE, fontsize_col = 5, angle_col = 90, annotation_col = annot_df, annotation_colors = list(GROUP = CELL_GROUP_COLOR_CODE, chrom_mark = CHROM_MARK_COLOR_CODE),filename = save_fn)
+}
+```
+
+```{r}
+uniq_GROUP_list <- unique(emission_df$GROUP)
+plot_df <- data.frame(matrix(ncol = ncol(avg_emission_df) - 1, nrow = 0))
+for (ana in uniq_GROUP_list){
+  this_ana_df <- avg_emission_df %>% filter(grepl(paste0(ana, "-"), ana_mark_comb))
+  plot_df <- rbind(plot_df, this_ana_df)
+}
+ana_mark_comb_list <- plot_df$ana_mark_comb
+rownames(plot_df) <- ana_mark_comb_list
+plot_df <- plot_df %>% select(- 'ana_mark_comb')
+annot_df <- data.frame(chrom_mark = sapply(rownames(plot_df), FUN = get_chrom_mark_name))
+annot_df['GROUP'] <- sapply(rownames(plot_df), FUN = get_mark_ct)
+
+break_list <- seq (0, 1, by = 0.01)
+
+save_fn <- file.path(output_folder, "avg_chrom_mark_GROUP_grouped_ana.png")
+pheatmap(t(plot_df), breaks = break_list, fontsize = 5, cluster_rows = FALSE, cluster_cols = FALSE, show_colnames = TRUE, fontsize_col = 3, angle_col = 90, annotation_col = annot_df, annotation_colors = list(GROUP = CELL_GROUP_COLOR_CODE, chrom_mark = CHROM_MARK_COLOR_CODE) , cellwidth = 3.5 ,filename = save_fn)
+```
+
+```{r}
+break_list <- seq (0, 1, by = 0.01)
+uniq_GROUP_list <- unique(emission_df$GROUP)
+for (ana in uniq_GROUP_list){
+  this_ana_df <- avg_emission_df %>% filter(grepl(paste0(ana, '-'), ana_mark_comb))
+  ana_mark_comb_list <- this_ana_df$ana_mark_comb
+  this_ana_df <- this_ana_df %>% select(-"ana_mark_comb")
+  rownames(this_ana_df) <- ana_mark_comb_list
+  annot_df <- data.frame(chrom_mark = sapply(ana_mark_comb_list, FUN = get_chrom_mark_name))
+  annot_df['GROUP'] <- sapply(ana_mark_comb_list, FUN = get_mark_ct)
+  save_fn <- file.path(ana_output_folder, paste0(ana, "avg_emission.png"))
+  pheatmap(t(this_ana_df), breaks = break_list, fontsize = 5, cluster_rows = FALSE, cluster_cols = FALSE, show_colnames = TRUE, fontsize_col = 5, angle_col = 90, annotation_col = annot_df, annotation_colors = list(GROUP = CELL_GROUP_COLOR_CODE, chrom_mark = CHROM_MARK_COLOR_CODE),filename = save_fn)
+}
+```
+
+# calculate the correlations between states
+```{r}
+emission_df <- get_emission_df_from_chromHMM_emission(emission_fn)
+mark_name_list <- emission_df$mark_names
+emission_df <- emission_df %>% select(-'mark_names', -'ct', -'chrom_mark', -'GROUP', -'COLOR', -'TYPE', -'Epig_name', -'GROUP')
+rownames(emission_df) <- mark_name_list
+cor_df <- as.data.frame(cor(emission_df))
+break_list <- seq (0, 1, by = 0.01)
+save_fn <- '/Users/vuthaiha/Desktop/window_hoff/ROADMAP_aligned_reads/chromHMM_model/model_100_state/state_correlations/pearson_correlations.png'
+pheatmap(cor_df, breaks = break_list, fontsize = 4, cluster_rows = FALSE, cluster_cols = FALSE, show_colnames = TRUE, fontsize_col = 4, angle_col = 90,filename = save_fn)
+```

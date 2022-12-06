@@ -1,0 +1,162 @@
+---
+title: "draw_heatmap_emission_mm10_full_stack"
+author: "Ha Vu"
+date: "9/17/2021"
+output: html_document
+---
+```{r}
+library(tidyverse)
+library(tidyr)
+library(dplyr)
+library(pheatmap)
+library(ggplot2)
+library(reshape2) # dcast function
+```
+
+```{r}
+biosample_color_dict <- c('adipose'= '#AF5B39', 'bone marrow'= '#375623', 'brain'= '#C5912B', 'embryo'= '#0070C0', 'esc'= '#924965', 'fibroblast'= '#C075C3', 'heart'= '#D56F80', 'intestine'= '#D0A39B', 'kidney'= '#F4B084', 'limb'= '#F182BC', 'liver'= '#9BC2E6', 'lung'= '#E41A1C', 'muscle'= '#F9B6CF', 'neuron'= '#FFD924', 'other'= '#999999', 'placenta'= '#69608A', 'red blood cells'= '#55A354', 'retina'= '#F8CBAD', 'spleen'= '#678C69', 'stomach'= '#E5BDB5', 'testis'= '#ACB9CA', 'thymus'= '#C6E0B4', 'white blood cells'= '#678C69')
+organ_color_dict <- c('spleen'= '#678C69', 'lymph_node'= '#E2EFDA', 'musculature'= '#F9B6CF', 'embryo'= '#0070C0', 'liver'= '#9BC2E6', 'lung'= '#E41A1C', 'limb'= '#F182BC', 'kidney'= '#F4B084', 'intestine'= '#D0A39B', 'stomach'= '#E5BDB5', 'epithelium'= '#7491A2', 'brain'= '#C5912B', 'heart'= '#D56F80', 'immune_organ'= '#678C69', 'gonad'= '#ACB9CA', 'blood'= '#55A354', 'bone_element'= '#375623', 'eye'= '#F8CBAD', 'unknown'= '#999999', 'breast'= '#18A7F0', 'adipose_tissue'= '#A7D5FF', 'connective_tissue'= '#90C4CE', 'adrenal_gland'= '#F4B084', 'extraembryonic_component'= '#69608A', 'spinal_cord'= '#FFD924', 'placenta'= '#786D8C')
+assay_color_dict <- c('ATAC'= '#E8F484', 'DNase'= '#DBE680', 'H3K27ac'= '#F7CB4D', 'H3K27me3'= '#A6A6A4', 'H3K36me3'= '#49AC5E', 'H3K4me1'= '#EDF732', 'H3K4me2'= '#F8CBAD', 'H3K4me3'= '#F13712', 'H3K79me1'= '#9DCEA8', 'H3K79me2'= '#377A45', 'H3K9ac'= '#F2A626', 'H3K9me3'= '#677BF6', 'H3ac'= '#E5EAE7', 'H3K79me3'= '#95B77E')
+state_group_color_dict <- c('BivProm'= '#6a0dad', 'OpenC'= '#fff44f', 'HET'= '#b19cd9', 'Prom'= '#ff4500', 'ReprPC'= '#C0C0C0', 'ReprPC and openC'= '#d1cf90', 'TSS'= '#FF0000', 'Tx'= '#006400', 'TxEnh'= '#ADFF2F', 'TxEx'= '#9BBB59', 'TxWk'= '#228B22', 'WkEnh'= '#ffff00', 'ZNF'= '#7fffd4', 'artifacts'= '#fff5ee', 'enhancers'= '#FFA500', 'quiescent'= '#ffffff')
+num_state <- 100
+```
+
+```{r}
+annot_fn <- '/Users/vuthaiha/Desktop/window_hoff/full_stacked_mouse/from_jason_061921/state_annotation_processed.csv'
+annot_df <- as.data.frame(read.csv(annot_fn, header = TRUE, stringsAsFactors = FALSE, sep = '\t'))
+read_state_annot_df <- function(state_annot_fn){
+	annot_df <- as.data.frame(read.csv(state_annot_fn, header = TRUE, stringsAsFactors = FALSE, sep = '\t'))
+	tryCatch({
+		annot_df <- annot_df %>% rename('state_group' = 'group')
+		}, error = function (e) {message("tried to change column names in annot_df and nothing worth worrying happened")})
+	annot_df <- annot_df %>% arrange(state_order_by_group) # order rows based on the index that we get from state_order_by_group column
+	return(annot_df)	
+}
+annot_df <- read_state_annot_df(annot_fn)
+head(annot_df)
+
+
+calculate_gap_rows_among_state_groups <- function(state_annot_df){
+	state_group_ordered_by_appearance <- unique(state_annot_df$state_group) # list of different state groups, ordered by how they appear in the heatmap from top to bottom
+	count_df <- state_annot_df %>% dplyr::count(state_group)
+	count_df <- count_df[match(state_group_ordered_by_appearance, count_df$state_group),] # order the rows such that the state_type are ordered based on state_group_ordered_by_appearance
+	results <- cumsum(count_df$n) # cumulative sum of the count for groups of states, which will be used to generate the gaps between rows of the heatmaps
+	return(results)
+}
+```
+Draw the emission matrix right here
+```{r}
+emission_fn <- '/Users/vuthaiha/Desktop/window_hoff/full_stacked_mouse/from_jason_061921/emissions/emissions_100_for_pheatmap.txt'
+save_fn <- '/Users/vuthaiha/Desktop/window_hoff/full_stacked_mouse/from_jason_061921/emissions/emissions_100.png'
+emission_df <- as.data.frame(read.csv(emission_fn, sep = '\t', header = TRUE)) %>% arrange(assay_big_group, assay, organ_order, organ_group)
+colnames(emission_df) <- c('experiments', paste0('S', seq(1,num_state)), colnames(emission_df)[102:length(colnames(emission_df))])
+annot_df <- read_state_annot_df(annot_fn)
+#### getting the plot_df: columns : experiments, rows: states
+plot_df <- emission_df %>% select(c('experiments', paste0('S', annot_df$state))) # choosing only experiments and the states, which are ordered based on the group, all based on the annot_state_df
+plot_df <- as.data.frame(t(plot_df))
+colnames(plot_df) <- plot_df[1,] # experiments
+plot_df <- plot_df[-1,] # get rid of the of experiments row
+rownames(plot_df) <- annot_df$mneumonics
+plot_df <- plot_df %>% mutate_all(as.numeric)
+#######
+####### getting the annot_exp_df for experiments ######
+annot_exp_df <- emission_df %>% select(c('organ_group', 'assay')) 
+rownames(annot_exp_df) <- emission_df$experiments
+############
+####### getting the annot_state_df for states ####
+annot_state_df <- annot_df %>% select(c('state_group'))
+rownames(annot_state_df) <- annot_df$mneumonics
+############
+####### getting gap row indices ####
+gap_row_indices <- calculate_gap_rows_among_state_groups(annot_df)
+############
+pheatmap(plot_df, fontsize = 5, annotation_col = annot_exp_df, annotation_row = annot_state_df, annotation_colors = list(organ_group = organ_color_dict, assay = assay_color_dict, state_group = state_group_color_dict), gaps_row = gap_row_indices, cluster_rows = FALSE, cluster_cols = FALSE, show_colnames = FALSE, fontsize_col = 3, angle_col = 90 , cellheight = 5, filename = save_fn)
+```
+
+Draw emission matrix for each state
+```{r}
+colnames(emission_df)
+head(annot_col_df)
+head(count_chrom_mark_GROUP)
+count_chrom_mark_GROUP$mark
+count_chrom_mark_GROUP[,1]
+```
+
+Plot to count the number of experiments for each combination of mark- biosample group
+```{r}
+output_folder <- '/Users/vuthaiha/Desktop/window_hoff/full_stacked_mouse/from_jason_061921/emissions/one_plot_per_state/biosample_group'
+count_chrom_mark_GROUP <- emission_df %>% select(c('experiments', 'mark', 'biosample_group')) %>% group_by(mark, biosample_group) %>% tally() %>% rename('count' = 'n')
+count_chrom_mark_GROUP <- count_chrom_mark_GROUP %>% dcast(mark ~ biosample_group , value.var = 'count') %>% replace(., is.na(.), 0)
+count_chrom_mark_GROUP <- count_chrom_mark_GROUP %>% select(c('mark','brain', 'neuron', 'retina', 'heart', 'lung', 'liver', 'stomach', 'intestine', 'kidney', 'adipose', 'muscle', 'fibroblast', 'white blood cells', 'red blood cells', 'bone marrow', 'thymus', 'spleen', 'testis', 'esc', 'placenta', 'embryo', 'other'))
+rownames(count_chrom_mark_GROUP) <- count_chrom_mark_GROUP$mark
+count_chrom_mark_GROUP <- count_chrom_mark_GROUP[,-1]
+annot_col_df <- data.frame(biosample_group = colnames(count_chrom_mark_GROUP))
+rownames(annot_col_df) <- as.character(colnames(count_chrom_mark_GROUP))
+count_chrom_mark_GROUP <- count_chrom_mark_GROUP[c('ATAC', 'DNase', 'H3K27ac', 'H3K4me1', 'H3K9ac', 'H3K4me2', 'H3K4me3', 'H3K36me3', 'H3K79me2', 'H3K79me3', 'H3ac', 'H3K27me3', 'H3K9me3'), ]
+print(count_chrom_mark_GROUP)
+annot_row_df <- data.frame(chrom_mark = rownames(count_chrom_mark_GROUP))
+rownames(annot_row_df) <- as.character(rownames(count_chrom_mark_GROUP))
+
+pheatmap(count_chrom_mark_GROUP, fontsize = 6, cluster_rows = FALSE, cluster_cols = FALSE, show_colnames = TRUE, fontsize_col = 4.5, angle_col = 90,  display_numbers = count_chrom_mark_GROUP, number_format = '%s', annotation_col = annot_col_df, annotation_row = annot_row_df, annotation_colors = list(biosample_group = biosample_color_dict, chrom_mark = assay_color_dict), color = colorRampPalette(c('white', 'red'))(300), filename = file.path(output_folder, 'count_categories.png'))
+```
+
+# draw plots for each state on its own figure, grouped by my own metadata of biosamples
+```{r}
+for (state_index in seq(num_state)){
+  state_colname <- paste0("S", state_index)
+  state_df <- emission_df %>% select(c(state_colname, "mark", "biosample_group")) 
+  avg_emission_df <- state_df %>% group_by(mark, biosample_group) %>% summarise_all(~ mean(.x, na.rm = TRUE)) %>% rename(mean_emission = state_colname) # group by chrom_mark and GROUP, then calculate the mean emission of emission probabilities in this state --> chrom_mark, GROUP, mean_emission
+  avg_emission_df <- avg_emission_df %>% dcast(mark ~ biosample_group , value.var = 'mean_emission') %>% replace(., is.na(.), 0) # put the 3 column data frame into a data frame that are heatmap compatible
+  avg_emission_df <- avg_emission_df %>% select(c('mark','brain', 'neuron', 'retina', 'heart', 'lung', 'liver', 'stomach', 'intestine', 'kidney', 'adipose', 'muscle', 'fibroblast', 'white blood cells', 'red blood cells', 'bone marrow', 'thymus', 'spleen', 'testis', 'esc', 'placenta', 'embryo', 'other'))
+  chrom_mark_list <- avg_emission_df %>% select('mark') # list of chromatin marks, which will later be the row names for the heatmap
+  avg_emission_df <- avg_emission_df[,-1] # get rid of the 'chrom_mark' column because it will become the row names
+  row.names(avg_emission_df) <- chrom_mark_list[,1] # row names are now chrom mark so that can draw a heatmap later
+  avg_emission_df <- (avg_emission_df[c('ATAC', 'DNase', 'H3K27ac', 'H3K4me1', 'H3K9ac', 'H3K4me2', 'H3K4me3', 'H3K36me3', 'H3K79me2', 'H3K79me3', 'H3ac', 'H3K27me3', 'H3K9me3'), ]) # note that H3K79me1 is not here
+  this_state_save_fig_fn <- file.path(output_folder, paste0("state", state_index, '_avg_emission.png') )
+  break_list <- seq (0, 1, by = 0.01)
+  annot_col_df <- data.frame(cell_GROUP = colnames(avg_emission_df))
+  rownames(annot_col_df) <- as.character(colnames(avg_emission_df))
+  annot_row_df <- data.frame(chrom_mark = rownames(avg_emission_df))
+  rownames(annot_row_df) <- as.character(rownames(avg_emission_df))
+  pheatmap(avg_emission_df,breaks = break_list, fontsize = 5, cluster_rows = FALSE, cluster_cols = FALSE, show_colnames = TRUE, fontsize_col = 4.5, angle_col = 90, annotation_col = annot_col_df, annotation_row = annot_row_df, display_numbers =  count_chrom_mark_GROUP ,annotation_colors = list(cell_GROUP = biosample_color_dict, chrom_mark = assay_color_dict), filename = this_state_save_fig_fn)
+  print(paste("Done with state:", state_index))
+}
+```
+
+
+```{r}
+output_folder <- '/Users/vuthaiha/Desktop/window_hoff/full_stacked_mouse/from_jason_061921/emissions/one_plot_per_state/organ_slims'
+count_chrom_mark_GROUP <- emission_df %>% select(c('experiments', 'mark', 'organ_group')) %>% group_by(mark, organ_group) %>% tally() %>% rename('count' = 'n')
+count_chrom_mark_GROUP <- count_chrom_mark_GROUP %>% dcast(mark ~ organ_group , value.var = 'count') %>% replace(., is.na(.), 0)
+count_chrom_mark_GROUP <- count_chrom_mark_GROUP %>% select(c('mark','brain', 'spinal_cord','eye', 'heart', 'lung', 'liver', 'stomach', 'intestine', 'kidney', 'adipose_tissue', 'breast', 'connective_tissue', 'epithelium', 'limb', 'musculature', 'blood', 'immune_organ', 'lymph_node', 'spleen', 'bone_element', 'adrenal_gland', 'gonad', 'extraembryonic_component', 'placenta', 'embryo',  'unknown'))
+rownames(count_chrom_mark_GROUP) <- count_chrom_mark_GROUP$mark
+count_chrom_mark_GROUP <- count_chrom_mark_GROUP[,-1]
+annot_col_df <- data.frame(organ_group = colnames(count_chrom_mark_GROUP))
+rownames(annot_col_df) <- as.character(colnames(count_chrom_mark_GROUP))
+count_chrom_mark_GROUP <- count_chrom_mark_GROUP[c('ATAC', 'DNase', 'H3K27ac', 'H3K4me1', 'H3K9ac', 'H3K4me2', 'H3K4me3', 'H3K36me3', 'H3K79me2', 'H3K79me3', 'H3ac', 'H3K27me3', 'H3K9me3'), ]
+print(count_chrom_mark_GROUP)
+annot_row_df <- data.frame(chrom_mark = rownames(count_chrom_mark_GROUP))
+rownames(annot_row_df) <- as.character(rownames(count_chrom_mark_GROUP))
+
+pheatmap(count_chrom_mark_GROUP, fontsize = 6, cluster_rows = FALSE, cluster_cols = FALSE, show_colnames = TRUE, fontsize_col = 4.5, angle_col = 90,  display_numbers = count_chrom_mark_GROUP, number_format = '%s', annotation_col = annot_col_df, annotation_row = annot_row_df, annotation_colors = list(organ_group = organ_color_dict, chrom_mark = assay_color_dict), color = colorRampPalette(c('white', 'red'))(300), filename = file.path(output_folder, 'count_categories.png'))
+
+for (state_index in seq(num_state)){
+  state_colname <- paste0("S", state_index)
+  state_df <- emission_df %>% select(c(state_colname, "mark", "organ_group")) 
+  avg_emission_df <- state_df %>% group_by(mark, organ_group) %>% summarise_all(~ mean(.x, na.rm = TRUE)) %>% rename(mean_emission = state_colname) # group by chrom_mark and GROUP, then calculate the mean emission of emission probabilities in this state --> chrom_mark, GROUP, mean_emission
+  avg_emission_df <- avg_emission_df %>% dcast(mark ~ organ_group , value.var = 'mean_emission') %>% replace(., is.na(.), 0) # put the 3 column data frame into a data frame that are heatmap compatible
+  avg_emission_df <- avg_emission_df %>% select(c('mark','brain', 'spinal_cord','eye', 'heart', 'lung', 'liver', 'stomach', 'intestine', 'kidney', 'adipose_tissue', 'breast', 'connective_tissue', 'epithelium', 'limb', 'musculature', 'blood', 'immune_organ', 'lymph_node', 'spleen', 'bone_element', 'adrenal_gland', 'gonad', 'extraembryonic_component', 'placenta', 'embryo',  'unknown'))
+  chrom_mark_list <- avg_emission_df %>% select('mark') # list of chromatin marks, which will later be the row names for the heatmap
+  avg_emission_df <- avg_emission_df[,-1] # get rid of the 'chrom_mark' column because it will become the row names
+  row.names(avg_emission_df) <- chrom_mark_list[,1] # row names are now chrom mark so that can draw a heatmap later
+  avg_emission_df <- (avg_emission_df[c('ATAC', 'DNase', 'H3K27ac', 'H3K4me1', 'H3K9ac', 'H3K4me2', 'H3K4me3', 'H3K36me3', 'H3K79me2', 'H3K79me3', 'H3ac', 'H3K27me3', 'H3K9me3'), ]) # note that H3K79me1 is not here
+  this_state_save_fig_fn <- file.path(output_folder, paste0("state", state_index, '_avg_emission.png') )
+  break_list <- seq (0, 1, by = 0.01)
+  annot_col_df <- data.frame(organ_group = colnames(avg_emission_df))
+  rownames(annot_col_df) <- as.character(colnames(avg_emission_df))
+  annot_row_df <- data.frame(chrom_mark = rownames(avg_emission_df))
+  rownames(annot_row_df) <- as.character(rownames(avg_emission_df))
+  pheatmap(avg_emission_df,breaks = break_list, fontsize = 5, cluster_rows = FALSE, cluster_cols = FALSE, show_colnames = TRUE, fontsize_col = 4.5, angle_col = 90, annotation_col = annot_col_df, annotation_row = annot_row_df, display_numbers =  count_chrom_mark_GROUP ,annotation_colors = list(organ_group = organ_color_dict, chrom_mark = assay_color_dict), filename = this_state_save_fig_fn)
+  print(paste("Done with state:", state_index))
+}
+```

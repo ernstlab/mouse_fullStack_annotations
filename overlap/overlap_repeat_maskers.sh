@@ -1,0 +1,1 @@
+java -jar /u/home/h/havu73/project-ernst/ChromHMM1_18/ChromHMM.jar OverlapEnrichment -b 1 -lowmem -noimage /u/home/h/havu73/project-ernst/full_stacked_mouse/from_jason_061921/genome_100_segments.bed.gz /u/home/h/havu73/project-ernst/data/ucsc/repeats/mm10/rmsk_classes /u/home/h/havu73/project-ernst/full_stacked_mouse/from_jason_061921/overlap/overlap_rmsk

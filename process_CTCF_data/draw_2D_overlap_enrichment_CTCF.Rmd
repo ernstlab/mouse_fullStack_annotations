@@ -1,0 +1,54 @@
+---
+title: "draw_2D_overlap_enrichment_CTCF"
+author: "Ha Vu"
+date: "10/23/2022"
+output: html_document
+---
+
+```{r}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyr)
+library(tidyverse)
+library(ggplot2)
+library(dplyr)
+```
+
+```{r}
+overlap_fn <- '/Users/vuthaiha/Desktop/window_hoff/full_stacked_mouse/from_jason_061921/overlap/ctcf/overlap_ctcf_mm10_with_calculated_mean.txt'
+state_annot_fn <- '/Users/vuthaiha/Desktop/window_hoff/full_stacked_mouse/from_jason_061921/state_annotation_processed.csv'
+```
+
+```{r}
+RowSD <- function(x) { # function that I can use to calculate the standard deviation of a list of numbers. Taken from  https://stackoverflow.com/questions/29581612/r-dplyr-mutate-calculating-standard-deviation-for-each-row
+  sqrt(rowSums((x - rowMeans(x))^2)/(dim(x)[2] - 1))
+}
+
+```
+
+```{r}
+state_df <- as.data.frame(read.csv(state_annot_fn, header = T, sep = '\t', check.names = F))
+state_df <- state_df %>% select(-c('comments', 'color', 'group', 'itemRgb'))
+```
+
+```{r}
+df <- read.table(overlap_fn, header = T, sep = '\t', check.names = F) # check.names should be set to F otherwise R will change the colum names with special characters
+#df <- df %>% slice(1 : (n()-1)) # we do not really need this anymore because 
+df <- df %>% rename(c('state' = 'state (Emission order)', 'genome_percent' = 'Genome %'))
+df$state <- as.integer(df$state)
+df <- df %>% left_join(state_df, by = 'state') 
+#df <- df %>% mutate(mean_overlap= mean(select(., ends_with('.bed.gz'))), std_overlap= RowSD(select(., ends_with('.bed.gz')))) 
+df <- df %>% arrange(state_order_by_group) 
+#show_df <- df%>% select(c('mneumonics', 'geomean', 'geostd', 'mean_overlap', 'std_overlap'))
+#show_df %>% write_csv('/Users/vuthaiha/Desktop/window_hoff/full_stacked_mouse/from_jason_061921/overlap/ctcf/mean_overlap_ctcf.csv')
+```
+
+```{r}
+ggplot(df, aes(x=fct_inorder(mneumonics), y = geomean)) + # factor inorder to keep the order of states in the plots https://forcats.tidyverse.org/reference/fct_inorder.html
+  geom_line(linetype = "dashed", size = 1) +
+  geom_point() +
+  geom_errorbar(aes(ymin = geomean - geostd, ymax = geomean + geostd), width = 0.5, position = position_dodge(0.05)) +
+  theme_bw() +
+  theme(axis.text.x = element_text(size = 5, angle = 90))
+save_fn <- '/Users/vuthaiha/Desktop/window_hoff/full_stacked_mouse/from_jason_061921/overlap/ctcf/geomean_overlap_ctcf.png'
+ggsave(save_fn, width = 10, height = 4)
+```
