@@ -1,0 +1,16 @@
+state	mneumonics	Meaning	color
+1	1_PrA	Promoter Active	#FF0000
+2	2_PrW	Promoter Weak	#FF7D4D
+3	3_PrB	Promoter Bivalent	#7030A0
+4	4_PrF	Promoter Flanking	#FF7D4D
+5	5_EnSd	Enhancer Strong TSS-dist	#FFA500
+6	6_EnSp	Enhancer Strong TSS-prox	#FFA500
+7	7_EnW	Enhancer Weak, TSS-dist	#FFFF00
+8	8_EnPd	Enhancer Poised, TSS-dist	#E2D27D
+9	9_EnPp	Enhancer Poised, TSS-prox	#E2D27D
+10	10_TrS	Transcription Strong	#008000
+11	11_TrP	Transcription Permission	#DFE7DE
+12	12_TrI	Transcription Initiation	#008000
+13	13_HcP	Polycomb-assoc.	#808080
+14	14_HcH	Heterochromatin H3K9me3	#B19CD9
+15	15_Ns	No signal (Quiescent)	#FFFFFF

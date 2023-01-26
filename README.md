@@ -10,7 +10,9 @@ Within this folder:
 - Detailed description of states can be found at <a href="https://public.hoffman2.idre.ucla.edu/ernst/2K9RS//mouse_fullStack/state_annotation_processed.csv"> csv file </a>. The excel version of these files, with more results of the states' overlap enrichments with external annotations can be found in our manuscript, which will be made publich soon.
 
 # Folders:
-Within each subfolders inside this folder. Currently, our subfolders have not been completely cleaned with documentations. But, we are working on this part of the project. Please check back  in about 1 week's time.
+Within each subfolders inside this folder. Currently, our subfolders have not been completely cleaned with documentations. But, we are working on this part of the project. 
+- Folder ```relationship_with_ct_spec_state```: contains code to reproduce the plots in Fig. S6 and S7 of the manuscript.
+
 
 # License:
 All code is provided under the MIT Open Acess License

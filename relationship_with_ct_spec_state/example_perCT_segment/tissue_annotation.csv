@@ -1,0 +1,67 @@
+tissue_stage	ct	stage	color	group
+e11.5_facial-prominence	facial-prominence	e11.5	#124c78	
+e11.5_forebrain	forebrain	e11.5	#C5912B	Brain
+e11.5_heart	heart	e11.5	#D56F80	Heart
+e11.5_hindbrain	hindbrain	e11.5	#C5912B	Brain
+e11.5_limb	limb	e11.5	#F9B6CF	Muscle
+e11.5_liver	liver	e11.5	#9BC2E6	Liver
+e11.5_midbrain	midbrain	e11.5	#C5912B	Brain
+e11.5_neural-tube	neural-tube	e11.5	#FFD924	neuron
+e12.5_facial-prominence	facial-prominence	e12.5	#124c78	
+e12.5_forebrain	forebrain	e12.5	#C5912B	Brain
+e12.5_heart	heart	e12.5	#D56F80	Heart
+e12.5_hindbrain	hindbrain	e12.5	#C5912B	Brain
+e12.5_limb	limb	e12.5	#F9B6CF	Muscle
+e12.5_liver	liver	e12.5	#9BC2E6	Liver
+e12.5_midbrain	midbrain	e12.5	#C5912B	Brain
+e12.5_neural-tube	neural-tube	e12.5	#FFD924	neuron
+e13.5_facial-prominence	facial-prominence	e13.5	#124c78	
+e13.5_forebrain	forebrain	e13.5	#C5912B	Brain
+e13.5_heart	heart	e13.5	#D56F80	Heart
+e13.5_hindbrain	hindbrain	e13.5	#C5912B	Brain
+e13.5_limb	limb	e13.5	#F9B6CF	Muscle
+e13.5_liver	liver	e13.5	#9BC2E6	Liver
+e13.5_midbrain	midbrain	e13.5	#C5912B	Brain
+e13.5_neural-tube	neural-tube	e13.5	#FFD924	neuron
+e14.5_facial-prominence	facial-prominence	e14.5	#124c78	
+e14.5_forebrain	forebrain	e14.5	#C5912B	Brain
+e14.5_heart	heart	e14.5	#D56F80	Heart
+e14.5_hindbrain	hindbrain	e14.5	#C5912B	Brain
+e14.5_intestine	intestine	e14.5	#D0A39B	intestine
+e14.5_kidney	kidney	e14.5	#F4B084	kidney
+e14.5_limb	limb	e14.5	#F9B6CF	Muscle
+e14.5_liver	liver	e14.5	#9BC2E6	Liver
+e14.5_lung	lung	e14.5	#E41A1C	lung
+e14.5_midbrain	midbrain	e14.5	#C5912B	Brain
+e14.5_neural-tube	neural-tube	e14.5	#FFD924	neuron
+e14.5_stomach	stomach	e14.5	#E5BDB5	stomach
+e15.5_facial-prominence	facial-prominence	e15.5	#124c78	
+e15.5_forebrain	forebrain	e15.5	#C5912B	Brain
+e15.5_heart	heart	e15.5	#D56F80	Heart
+e15.5_hindbrain	hindbrain	e15.5	#C5912B	Brain
+e15.5_intestine	intestine	e15.5	#D0A39B	intestine
+e15.5_kidney	kidney	e15.5	#F4B084	kidney
+e15.5_limb	limb	e15.5	#F9B6CF	Muscle
+e15.5_liver	liver	e15.5	#9BC2E6	Liver
+e15.5_lung	lung	e15.5	#E41A1C	lung
+e15.5_midbrain	midbrain	e15.5	#C5912B	Brain
+e15.5_neural-tube	neural-tube	e15.5	#FFD924	neuron
+e15.5_stomach	stomach	e15.5	#E5BDB5	stomach
+e16.5_forebrain	forebrain	e16.5	#C5912B	Brain
+e16.5_heart	heart	e16.5	#D56F80	Heart
+e16.5_hindbrain	hindbrain	e16.5	#C5912B	Brain
+e16.5_intestine	intestine	e16.5	#D0A39B	intestine
+e16.5_kidney	kidney	e16.5	#F4B084	kidney
+e16.5_liver	liver	e16.5	#9BC2E6	Liver
+e16.5_lung	lung	e16.5	#E41A1C	lung
+e16.5_midbrain	midbrain	e16.5	#C5912B	Brain
+e16.5_stomach	stomach	e16.5	#E5BDB5	stomach
+P0_forebrain	forebrain	P0	#C5912B	Brain
+P0_heart	heart	P0	#D56F80	Heart
+P0_hindbrain	hindbrain	P0	#C5912B	Brain
+P0_intestine	intestine	P0	#D0A39B	intestine
+P0_kidney	kidney	P0	#F4B084	kidney
+P0_liver	liver	P0	#9BC2E6	Liver
+P0_lung	lung	P0	#E41A1C	lung
+P0_midbrain	midbrain	P0	#C5912B	Brain
+P0_stomach	stomach	P0	#E5BDB5	stomach
