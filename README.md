@@ -12,7 +12,7 @@ Within this folder:
 # Folders:
 Within each subfolders inside this folder. Currently, our subfolders have not been completely cleaned with documentations. But, we are working on this part of the project. 
 - Folder ```relationship_with_ct_spec_state```: contains code to reproduce the plots in Fig. S6 and S7 of the manuscript.
-
+- Folder ```process_CTCF_data```: contains code to reproduce Fig. 2F of the manuscript.
 
 # License:
 All code is provided under the MIT Open Acess License
