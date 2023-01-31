@@ -27,4 +27,5 @@ Note: we include a file ```metadata_clean_for_publication.txt``` in this folder,
 ```
 java -jar <full_path_to_chromHMM.jar> -b 1 -lowmem -noimage <full path to segmentation file genome_100_segments.bed.gz> <folder storing CTCF bed files from step 2> <full-path-to output file prefix (without .txt)>
 ``` 
+The output of this step is provided in file ```overlap_ctcf_mm10.txt```.
 - Lastly, we calculated the geometric mean and STD of overlap fold enrichment across different cell types. We do not include the annotated code to generate plots here since the procedure is standard (we still include code that works locally but has not been fully clean from local file paths in this folder). If you want to obtain clean, fully commented code for this step, please contact graduate student Ha Vu. 
