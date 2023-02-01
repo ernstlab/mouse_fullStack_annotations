@@ -14,6 +14,11 @@ Within each subfolders inside this folder. Currently, our subfolders have not be
 - Folder ```relationship_with_ct_spec_state```: contains code to reproduce the plots in Fig. S6 and S7 of the manuscript.
 - Folder ```process_CTCF_data```: contains code to reproduce Fig. 2F of the manuscript.
 - Folder ```neighborhood```: contains code to reproduce Fig. 2D-E and S2 of the manuscript.
+- Folder ```emission_and_metadata```: contains code to reproduce Fig. 1 of the manuscript
+- Folder ```gene_exp_analysis```: contains code to reproduce Fig. 2C of the manuscript
+- Folder ```analyse_gencode```: contains scripts to obtain bed files of external genome annotations from GENCODE, which are essential for enrichment analysis of mouse full-stack chromatin states with external genome annotations presented in figure 2A.
+- Folder ```analyse_ucsc```: contains code to obtain bed files of external genome annotations from UCSC Genome Browser, which are essential for enrichment analysis of mouse full-stack chromatin states with external genome annotations presented in figure 2A.
+- Folder ```overlap```: contains scripts of calculate the enrichments of mouse full-stack states with different genome annotation. 
 
 # License:
 All code is provided under the MIT Open Acess License
