@@ -10,7 +10,8 @@ Within this folder:
 - Detailed description of states can be found at <a href="https://public.hoffman2.idre.ucla.edu/ernst/2K9RS//full_stack/full_stack_annotation_public_release/mm10/state_annotation_processed.csv"> csv file </a>. The excel version of these files, with more results of the states' overlap enrichments with external annotations can be found in our manuscript, which will be made publich soon.
 
 # Track hubs on UCSC genome browser:
-You can view the full-stack annotations for the mouse (presented in this manuscript) OR the human (presented in the <a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02572-z"> "sister" manuscript</a>), by using the <a href="ttps://public.hoffman2.idre.ucla.edu/ernst/2K9RS//full_stack/full_stack_annotation_public_release/hub.txt"> track hub link</a>
+You can view the full-stack annotations for the mouse (presented in this manuscript) OR the human (presented in the <a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02572-z"> "sister" manuscript</a>), by using the <a href="ttps://public.hoffman2.idre.ucla.edu/ernst/2K9RS//full_stack/full_stack_annotation_public_release/hub.txt"> track hub link</a>. We provide a very detailed step-by-step instruction on how to view the full-stack annotations using the provided track hub link in the tutorial file <a href="https://github.com/ernstlab/mouse_fullStack_annotations/blob/main/view_ucsc_genome_browser.pptx">view_ucsc_genome_browser.pptx</a>.
+
 # Folders:
 Within each subfolders inside this folder. Currently, our subfolders have not been completely cleaned with documentations. But, we are working on this part of the project. 
 - Folder ```relationship_with_ct_spec_state```: contains code to reproduce the plots in Fig. S6 and S7 of the manuscript.
