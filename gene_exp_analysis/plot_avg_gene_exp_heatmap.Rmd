@@ -14,7 +14,7 @@ library(RColorBrewer)
 ```
 
 ```{r}
-state_annot_fn <- '/Users/vuthaiha/Desktop/window_hoff/full_stacked_mouse/from_jason_061921/state_annotation_processed.csv'
+state_annot_fn <- '../state_annotation_processed.csv'
 read_state_annot_df <- function(state_annot_fn){
 	annot_df <- as.data.frame(read.csv(state_annot_fn, header = TRUE, stringsAsFactors = FALSE, sep = '\t'))
 	tryCatch({
@@ -61,7 +61,7 @@ get_cell_type_name <- function(cg){ # jsut get rid of the 1 or 2 at the end of t
 ```
 
 ```{r}
-fn <- '/Users/vuthaiha/Desktop/window_hoff/full_stacked_mouse/from_jason_061921/gene_exp/avg_gene_exp_per_state_per_ct.txt.gz'
+fn <- './avg_gene_exp_per_state_per_ct.txt.gz'
 df <- read.table(fn, sep = '\t', header = TRUE, row.names = 1)
 df <- as.data.frame(t(df))
 df$ct <- sapply(rownames(df), get_cell_type_name)
