@@ -22,6 +22,8 @@ optional arguments:
 ```
 - ```helper.py```: script containing helper functions for file managements. 
 
+For the rest of the steps in training the model (binarize data, learn model), we used <a href="http://compbio.mit.edu/ChromHMM/">ChromHMM v.1.23</a> functions BinarizeData and LearnModel. We described the process in Methods section of the paper. If you need to obtain the binarized data we used for training the model, please contact Dr. Jason Ernst.
+
 ## LICENSE
 Copyright 2022 Ha Vu (havu73@ucla.edu)
 
