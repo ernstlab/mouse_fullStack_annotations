@@ -5,8 +5,8 @@ import os
 import helper
 
 def prepare_color_dict():
-	assay_meta_fn = '/u/home/h/havu73/project-ernst/full_stacked_mouse/from_jason_061921/emissions/assay_count.csv'
-	organ_meta_fn = '/u/home/h/havu73/project-ernst/full_stacked_mouse/from_jason_061921/emissions/organ.txt'
+	assay_meta_fn = './data//assay_count.csv'
+	organ_meta_fn = './data//organ.txt'
 	assay_df = pd.read_csv(assay_meta_fn, header = 0, index_col = None, sep = ',')[['mark', 'color', 'big_group']]
 	assay_df = assay_df.rename(columns = {'color': 'mark_color', 'big_group': 'assay_big_group'})
 	assay_color_dict = dict(assay_df.groupby(['mark', 'mark_color']).groups.keys()) # keys: assay, values: colors
@@ -48,7 +48,7 @@ def color_mark_names(val):
 	return 'background-color: %s' % color
 
 def read_exp_organ_dict():
-	meta_fn = '/u/home/h/havu73/project-ernst/full_stacked_mouse/from_jason_061921/emissions/metadata_from_jason.txt'
+	meta_fn = './data/slims_metadata.txt'
 	meta_df = pd.read_csv(meta_fn, header = 0, index_col = None, sep = '\t') # 'experimentID', 'organ_slims', 'cell_slims', 'developmental_slims', 'system_slims', 'biosample_summary', 'simple_biosample_summary'
 	meta_df['organ_group'] = meta_df['organ_slims'].apply(lambda x: '_'.join(x[1:-1].split(',')[0][1:-1].split())).replace('musculature_of_body', 'musculature').replace('', 'unknown')
 	return dict(zip(meta_df.experimentID, meta_df.organ_group))
@@ -90,9 +90,9 @@ def main():
 
 def usage():
 	print ("python rank_chrom_mark_celltype_emission.py")
-	print ("emission_fn")
+	print ("emission_fn: should be ./data/emissions_100.txt")
 	print ("output_fn: execl file where the output data of ranked cell type and chrom marks are stored")
-	print ("num_top_marks: number of top marks that we want to report")
+	print ("num_top_marks: number of top marks that we want to report, recommended value: 100")
 	exit(1)
 
 main()

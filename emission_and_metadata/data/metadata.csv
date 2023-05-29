@@ -1,0 +1,902 @@
+exp_id,organ_group,cell_group,development_group,system_group,Biosample term id,Biosample term name,Biosample type,Biosample organism,Assay,Experiment target,File assembly,Donor(s)
+ENCSR000ADI,lymph_node,B_cell,mesoderm,immune,EFO:0005233,CH12.LX,cell line,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO324YEK/
+ENCSR000ADK,embryo,embryonic_cell,unknown,unknown,EFO:0007075,ES-E14,cell line,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO015AAA/
+ENCSR000ADL,embryo,embryonic_cell,unknown,unknown,EFO:0007075,ES-E14,cell line,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO015AAA/
+ENCSR000ADM,embryo,embryonic_cell,unknown,unknown,EFO:0007075,ES-E14,cell line,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO015AAA/
+ENCSR000ADP,spleen,cancer_cell,mesoderm,immune,EFO:0003971,MEL,cell line,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO073AAA/
+ENCSR000ADQ,spleen,cancer_cell,mesoderm,immune,EFO:0003971,MEL,cell line,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO073AAA/
+ENCSR000ADR,spleen,cancer_cell,mesoderm,immune,EFO:0003971,MEL,cell line,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO073AAA/
+ENCSR000ADT,spleen,cancer_cell,mesoderm,immune,EFO:0003971,MEL,cell line,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO073AAA/
+ENCSR000AHL,musculature,embryonic_cell,mesoderm,musculature,EFO:0001098,C2C12,cell line,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO321TZV/
+ENCSR000AHM,musculature,unknown,mesoderm,musculature,CL:0000187,myocyte,in vitro differentiated cells,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO321TZV/
+ENCSR000AHN,musculature,unknown,mesoderm,musculature,CL:0000187,myocyte,in vitro differentiated cells,Mus musculus,Histone ChIP-seq,H3K79me2-mouse,mm10,/mouse-donors/ENCDO321TZV/
+ENCSR000AHO,musculature,embryonic_cell,mesoderm,musculature,EFO:0001098,C2C12,cell line,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO321TZV/
+ENCSR000AHQ,musculature,embryonic_cell,mesoderm,musculature,EFO:0001098,C2C12,cell line,Mus musculus,Histone ChIP-seq,H3K79me2-mouse,mm10,/mouse-donors/ENCDO321TZV/
+ENCSR000AHR,musculature,embryonic_cell,mesoderm,musculature,EFO:0001098,C2C12,cell line,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO321TZV/
+ENCSR000AHS,musculature,unknown,mesoderm,musculature,CL:0000187,myocyte,in vitro differentiated cells,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO321TZV/
+ENCSR000AHT,musculature,unknown,mesoderm,musculature,CL:0000187,myocyte,in vitro differentiated cells,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO321TZV/
+ENCSR000AHU,musculature,unknown,mesoderm,musculature,CL:0000187,myocyte,in vitro differentiated cells,Mus musculus,Histone ChIP-seq,H3ac-mouse,mm10,/mouse-donors/ENCDO321TZV/
+ENCSR000AHV,musculature,unknown,mesoderm,musculature,CL:0000187,myocyte,in vitro differentiated cells,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO321TZV/
+ENCSR000AHW,musculature,embryonic_cell,mesoderm,musculature,EFO:0001098,C2C12,cell line,Mus musculus,Histone ChIP-seq,H3K79me3-mouse,mm10,/mouse-donors/ENCDO321TZV/
+ENCSR000CAE,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CAF,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CAG,bone_element,unknown,mesoderm,skeletal,UBERON:0002371,bone marrow,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CAI,brain,unknown,ectoderm,central_nervous,UBERON:0005343,cortical plate,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CAJ,brain,unknown,ectoderm,central_nervous,UBERON:0005343,cortical plate,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CAL,brain,unknown,ectoderm,central_nervous,UBERON:0002037,cerebellum,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CAM,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CAN,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CAO,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CAP,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CAQ,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CAZ,connective_tissue,connective_tissue_cell,unknown,unknown,CL:2000042,embryonic fibroblast,primary cell,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR000CBA,connective_tissue,connective_tissue_cell,unknown,unknown,CL:2000042,embryonic fibroblast,primary cell,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR000CBC,spleen,unknown,mesoderm,immune,UBERON:0002106,spleen,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CBD,spleen,unknown,mesoderm,immune,UBERON:0002106,spleen,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CBG,embryo,embryonic_cell,unknown,unknown,EFO:0005483,ES-Bruce4,cell line,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO081AAA/
+ENCSR000CCE,brain,unknown,ectoderm,central_nervous,UBERON:0002264,olfactory bulb,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CCF,brain,unknown,ectoderm,central_nervous,UBERON:0002264,olfactory bulb,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CCH,immune_organ,unknown,endoderm,endocrine,UBERON:0002370,thymus,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CCI,immune_organ,unknown,endoderm,endocrine,UBERON:0002370,thymus,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CCJ,immune_organ,unknown,endoderm,endocrine,UBERON:0002370,thymus,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CCL,bone_element,unknown,mesoderm,skeletal,UBERON:0002371,bone marrow,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CCQ,intestine,unknown,endoderm,digestive,UBERON:0002108,small intestine,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CCR,intestine,unknown,endoderm,digestive,UBERON:0002108,small intestine,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CCS,intestine,unknown,endoderm,digestive,UBERON:0002108,small intestine,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CCU,gonad,unknown,mesoderm,reproductive,UBERON:0000473,testis,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CCV,gonad,unknown,mesoderm,reproductive,UBERON:0000473,testis,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CCW,gonad,unknown,mesoderm,reproductive,UBERON:0000473,testis,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CDC,brain,unknown,ectoderm,central_nervous,UBERON:0002037,cerebellum,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CDD,brain,unknown,ectoderm,central_nervous,UBERON:0005343,cortical plate,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CDE,embryo,embryonic_cell,unknown,unknown,EFO:0005483,ES-Bruce4,cell line,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO081AAA/
+ENCSR000CDF,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CDG,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CDH,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CDI,connective_tissue,connective_tissue_cell,unknown,unknown,CL:2000042,embryonic fibroblast,primary cell,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR000CDJ,spleen,unknown,mesoderm,immune,UBERON:0002106,spleen,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CDK,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CDL,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CDM,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CDO,placenta,unknown,mesoderm,reproductive,UBERON:0001987,placenta,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CDP,placenta,unknown,mesoderm,reproductive,UBERON:0001987,placenta,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CDQ,placenta,unknown,mesoderm,reproductive,UBERON:0001987,placenta,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CDS,brain,unknown,ectoderm,central_nervous,UBERON:0002264,olfactory bulb,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CDU,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CDV,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CDW,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CEJ,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CEK,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CEL,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K79me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CEM,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CEN,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CEO,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CEP,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K79me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CEQ,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CER,spleen,cancer_cell,mesoderm,immune,EFO:0003971,MEL,cell line,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO073AAA/
+ENCSR000CES,spleen,cancer_cell,mesoderm,immune,EFO:0003971,MEL,cell line,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO073AAA/
+ENCSR000CET,spleen,cancer_cell,mesoderm,immune,EFO:0003971,MEL,cell line,Mus musculus,Histone ChIP-seq,H3K79me2-mouse,mm10,/mouse-donors/ENCDO073AAA/
+ENCSR000CEU,spleen,cancer_cell,mesoderm,immune,EFO:0003971,MEL,cell line,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO073AAA/
+ENCSR000CEV,spleen,cancer_cell,mesoderm,immune,EFO:0003971,MEL,cell line,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO073AAA/
+ENCSR000CEW,spleen,cancer_cell,mesoderm,immune,EFO:0003971,MEL,cell line,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO073AAA/
+ENCSR000CEX,spleen,cancer_cell,mesoderm,immune,EFO:0003971,MEL,cell line,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO073AAA/
+ENCSR000CEZ,adipose_tissue,unknown,mesoderm,unknown,UBERON:0001348,brown adipose tissue,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CFA,adipose_tissue,unknown,mesoderm,unknown,UBERON:0001348,brown adipose tissue,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CFB,adipose_tissue,unknown,mesoderm,unknown,UBERON:0001348,brown adipose tissue,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CFD,bone_element,hematopoietic_cell,mesoderm,skeletal,CL:0002476,bone marrow macrophage,primary cell,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO081AAA/
+ENCSR000CFE,bone_element,hematopoietic_cell,mesoderm,skeletal,CL:0002476,bone marrow macrophage,primary cell,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO081AAA/
+ENCSR000CFF,bone_element,hematopoietic_cell,mesoderm,skeletal,CL:0002476,bone marrow macrophage,primary cell,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO081AAA/
+ENCSR000CFL,lymph_node,B_cell,mesoderm,immune,EFO:0005233,CH12.LX,cell line,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO324YEK/
+ENCSR000CFM,brain,unknown,ectoderm,central_nervous,UBERON:0002037,cerebellum,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CFN,embryo,embryonic_cell,unknown,unknown,EFO:0005483,ES-Bruce4,cell line,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO081AAA/
+ENCSR000CFO,embryo,embryonic_cell,unknown,unknown,EFO:0005483,ES-Bruce4,cell line,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO081AAA/
+ENCSR000CFP,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CFQ,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CFR,intestine,unknown,endoderm,digestive,UBERON:0002108,small intestine,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CFS,intestine,unknown,endoderm,digestive,UBERON:0002108,small intestine,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CFT,spleen,unknown,mesoderm,immune,UBERON:0002106,spleen,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CFU,gonad,unknown,mesoderm,reproductive,UBERON:0000473,testis,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CFV,immune_organ,unknown,endoderm,endocrine,UBERON:0002370,thymus,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CFX,blood,hematopoietic_cell,unknown,immune,NTR:0000741,splenic B cell,primary cell,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR000CFY,blood,hematopoietic_cell,unknown,immune,NTR:0000741,splenic B cell,primary cell,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR000CFZ,embryo,embryonic_cell,unknown,unknown,EFO:0005483,ES-Bruce4,cell line,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO081AAA/
+ENCSR000CGA,spleen,unknown,mesoderm,immune,UBERON:0002106,spleen,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CGB,gonad,unknown,mesoderm,reproductive,UBERON:0000473,testis,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CGC,immune_organ,unknown,endoderm,endocrine,UBERON:0002370,thymus,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR000CGH,lymph_node,B_cell,mesoderm,immune,EFO:0005233,CH12.LX,cell line,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO324YEK/
+ENCSR000CGI,lymph_node,B_cell,mesoderm,immune,EFO:0005233,CH12.LX,cell line,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO324YEK/
+ENCSR000CGJ,lymph_node,B_cell,mesoderm,immune,EFO:0005233,CH12.LX,cell line,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO324YEK/
+ENCSR000CGK,lymph_node,B_cell,mesoderm,immune,EFO:0005233,CH12.LX,cell line,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO324YEK/
+ENCSR000CGL,lymph_node,B_cell,mesoderm,immune,EFO:0005233,CH12.LX,cell line,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO324YEK/
+ENCSR000CGM,lymph_node,B_cell,mesoderm,immune,EFO:0005233,CH12.LX,cell line,Mus musculus,Histone ChIP-seq,H3K79me2-mouse,mm10,/mouse-donors/ENCDO324YEK/
+ENCSR000CGN,embryo,embryonic_cell,unknown,unknown,EFO:0007075,ES-E14,cell line,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO015AAA/
+ENCSR000CGO,embryo,embryonic_cell,unknown,unknown,EFO:0007075,ES-E14,cell line,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO015AAA/
+ENCSR000CGP,embryo,embryonic_cell,unknown,unknown,EFO:0007075,ES-E14,cell line,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO015AAA/
+ENCSR000CGQ,embryo,embryonic_cell,unknown,unknown,EFO:0007075,ES-E14,cell line,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO015AAA/
+ENCSR000CGR,embryo,embryonic_cell,unknown,unknown,EFO:0007075,ES-E14,cell line,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO015AAA/
+ENCSR000CGS,embryo,embryonic_cell,unknown,unknown,EFO:0005483,ES-Bruce4,cell line,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO081AAA/
+ENCSR000CHP,embryo,stem_cell,unknown,unknown,EFO:0002034,G1E,cell line,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO089AAA/
+ENCSR000CMJ,breast,cancer_cell,unknown,unknown,EFO:0007069,3134,cell line,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO881PNH/
+ENCSR000CMK,bone_element,hematopoietic_cell,mesoderm,skeletal,EFO:0005482,416B,cell line,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO681ZXI/
+ENCSR000CML,blood,B_cell,mesoderm,immune,EFO:0005285,A20,cell line,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO546OGJ/
+ENCSR000CMM,blood,B_cell,endoderm,immune,CL:0000236,B cell,primary cell,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR000CMN,blood,hematopoietic_cell,unknown,immune,NTR:0000741,splenic B cell,primary cell,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR000CMO,brain,unknown,ectoderm,central_nervous,UBERON:0002037,cerebellum,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR000CMP,brain,unknown,ectoderm,central_nervous,UBERON:0001893,telencephalon,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR000CMQ,lymph_node,B_cell,mesoderm,immune,EFO:0005233,CH12.LX,cell line,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO324YEK/
+ENCSR000CMR,unknown,hematopoietic_cell,unknown,unknown,NTR:0000719,c-Kit-negative CD71-positive TER-119-positive erythroid progenitor cells,primary cell,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO083AAA/
+ENCSR000CMS,unknown,hematopoietic_cell,unknown,unknown,NTR:0000720,c-Kit-positive CD71-negative TER-119-negative erythroid progenitor cells,primary cell,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO083AAA/
+ENCSR000CMT,unknown,hematopoietic_cell,unknown,unknown,NTR:0000721,c-Kit-positive CD71-positive TER-119-negative erythroid progenitor cells,primary cell,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO083AAA/
+ENCSR000CMU,unknown,hematopoietic_cell,unknown,unknown,NTR:0000722,c-Kit-positive CD71-positive TER-119-positive erythroid progenitor cells,primary cell,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO083AAA/
+ENCSR000CMV,embryo,embryonic_cell,unknown,unknown,EFO:0005916,ES-CJ7,cell line,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO013AAA/
+ENCSR000CMW,embryo,embryonic_cell,unknown,unknown,EFO:0007075,ES-E14,cell line,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO015AAA/
+ENCSR000CMX,embryo,embryonic_cell,unknown,unknown,EFO:0005915,WW6,cell line,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO078AAA/
+ENCSR000CMZ,adipose_tissue,unknown,mesoderm,unknown,UBERON:0003916,fat pad,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR000CNA,lung,connective_tissue_cell,endoderm,respiratory,CL:0002553,fibroblast of lung,primary cell,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR000CNB,embryo,unknown,ectoderm,integumental,UBERON:0005417,forelimb bud,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO083AAA/
+ENCSR000CNC,gonad,unknown,mesoderm,reproductive,UBERON:0003428,gonadal fat pad,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR000CND,embryo,unknown,unknown,unknown,UBERON:0000922,embryo,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO083AAA/
+ENCSR000CNE,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR000CNF,embryo,unknown,ectoderm,integumental,UBERON:0005418,hindlimb bud,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO083AAA/
+ENCSR000CNG,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR000CNH,intestine,unknown,endoderm,digestive,UBERON:0000059,large intestine,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR000CNI,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR000CNJ,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR000CNK,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO087AAA/
+ENCSR000CNL,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO089AAA/
+ENCSR000CNM,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR000CNN,spleen,cancer_cell,mesoderm,immune,EFO:0003971,MEL,cell line,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO073AAA/
+ENCSR000CNO,embryo,unknown,mesoderm,unknown,UBERON:0000926,mesoderm,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO083AAA/
+ENCSR000CNP,spleen,hematopoietic_cell,mesoderm,immune,EFO:0005480,MEL-GATA-1-ER,cell line,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO073AAA/
+ENCSR000CNS,connective_tissue,connective_tissue_cell,unknown,unknown,EFO:0001222,NIH3T3,cell line,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO337EDF/
+ENCSR000CNT,connective_tissue,connective_tissue_cell,mesoderm,excretory,EFO:0005481,Patski,cell line,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO350LAJ/
+ENCSR000CNU,eye,unknown,ectoderm,sensory,UBERON:0000966,retina,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR000CNV,eye,unknown,ectoderm,sensory,UBERON:0000966,retina,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR000CNW,eye,unknown,ectoderm,sensory,UBERON:0000966,retina,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR000CNX,musculature,unknown,mesoderm,musculature,UBERON:0001134,skeletal muscle tissue,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR000CNY,spleen,unknown,mesoderm,immune,UBERON:0002106,spleen,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR000CNZ,blood,hematopoietic_cell,endoderm,immune,CL:0000895,"naive thymus-derived CD4-positive, alpha-beta T cell",primary cell,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR000COA,blood,hematopoietic_cell,endoderm,immune,CL:0000492,CD4-positive helper T cell,primary cell,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR000COB,immune_organ,unknown,endoderm,endocrine,UBERON:0002370,thymus,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR000COC,blood,hematopoietic_cell,endoderm,immune,CL:0000792,"CD4-positive, CD25-positive, alpha-beta regulatory T cell",primary cell,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR000COD,blood,hematopoietic_cell,endoderm,immune,CL:0000902,induced T-regulatory cell,primary cell,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR000COE,brain,unknown,ectoderm,central_nervous,UBERON:0000955,brain,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR000COF,brain,unknown,ectoderm,central_nervous,UBERON:0000955,brain,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR000COG,brain,unknown,ectoderm,central_nervous,UBERON:0000955,brain,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR000COH,embryo,embryonic_cell,unknown,unknown,EFO:0005914,ZHBTc4,cell line,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO015AAA/
+ENCSR000DHF,bone_element,hematopoietic_cell,mesoderm,skeletal,CL:0000556,megakaryocyte,primary cell,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO083AAA/
+ENCSR000DHG,bone_element,hematopoietic_cell,mesoderm,circulatory,CL:0000765,erythroblast,primary cell,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO083AAA/
+ENCSR000DHH,bone_element,hematopoietic_cell,mesoderm,skeletal,CL:0000556,megakaryocyte,primary cell,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO083AAA/
+ENCSR000DHI,bone_element,hematopoietic_cell,mesoderm,skeletal,CL:0000556,megakaryocyte,primary cell,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO083AAA/
+ENCSR000DHK,bone_element,hematopoietic_cell,mesoderm,circulatory,CL:0000765,erythroblast,primary cell,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO083AAA/
+ENCSR000DHL,bone_element,hematopoietic_cell,mesoderm,circulatory,CL:0000765,erythroblast,primary cell,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO083AAA/
+ENCSR000DHM,embryo,stem_cell,unknown,unknown,EFO:0002034,G1E,cell line,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO089AAA/
+ENCSR000DHN,bone_element,hematopoietic_cell,mesoderm,circulatory,CL:0000765,erythroblast,primary cell,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO083AAA/
+ENCSR000DHO,lymph_node,B_cell,mesoderm,immune,EFO:0005233,CH12.LX,cell line,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO324YEK/
+ENCSR000DHP,bone_element,hematopoietic_cell,mesoderm,circulatory,CL:0000765,erythroblast,primary cell,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO083AAA/
+ENCSR000DHQ,lymph_node,B_cell,mesoderm,immune,EFO:0005233,CH12.LX,cell line,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO324YEK/
+ENCSR000DHR,bone_element,hematopoietic_cell,mesoderm,skeletal,CL:0000556,megakaryocyte,primary cell,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO083AAA/
+ENCSR000DHT,bone_element,hematopoietic_cell,mesoderm,skeletal,CL:0000556,megakaryocyte,primary cell,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO083AAA/
+ENCSR000DHU,lymph_node,B_cell,mesoderm,immune,EFO:0005233,CH12.LX,cell line,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO324YEK/
+ENCSR000DHV,embryo,stem_cell,unknown,unknown,EFO:0002034,G1E,cell line,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO089AAA/
+ENCSR000DHW,lymph_node,B_cell,mesoderm,immune,EFO:0005233,CH12.LX,cell line,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO324YEK/
+ENCSR000DHX,embryo,stem_cell,unknown,unknown,EFO:0002034,G1E,cell line,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO089AAA/
+ENCSR000DHY,lymph_node,B_cell,mesoderm,immune,EFO:0005233,CH12.LX,cell line,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO324YEK/
+ENCSR000DIX,embryo,stem_cell,unknown,unknown,EFO:0002034,G1E,cell line,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO089AAA/
+ENCSR000DJB,embryo,stem_cell,unknown,unknown,EFO:0002034,G1E,cell line,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO089AAA/
+ENCSR005WPU,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR007XTC,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR008WOQ,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR012YAB,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR014MXQ,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR014SFF,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR014TEJ,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR014YAY,intestine,unknown,endoderm,digestive,UBERON:0000160,intestine,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR021ALF,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR022DED,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR022KDE,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR023EDS,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO509HIY/
+ENCSR023QZX,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR023VJO,stomach,unknown,endoderm,digestive,UBERON:0000945,stomach,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR025AOC,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR026MFT,brain,unknown,ectoderm,central_nervous,UBERON:0002037,cerebellum,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO509HIY/
+ENCSR027DMG,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR028VCU,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR028ZHS,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR031HDN,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR032HKE,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR032JUI,embryo,embryonic_cell,unknown,unknown,EFO:0007751,E14TG2a.4,cell line,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO015AAA/
+ENCSR036YKL,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR037HCS,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR037HLB,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR041KEJ,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR044SNE,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR044SUW,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR045NOD,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR046SWI,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR048IZJ,stomach,unknown,endoderm,digestive,UBERON:0000945,stomach,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR051CUH,intestine,unknown,endoderm,digestive,UBERON:0000160,intestine,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR052CDF,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR054JHZ,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR057BKH,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR057SHA,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR058DOA,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR059LYY,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR059MBO,embryo,embryonic_cell,unknown,unknown,EFO:0007751,E14TG2a.4,cell line,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO015AAA/
+ENCSR061DPP,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR064DGY,stomach,unknown,endoderm,digestive,UBERON:0000945,stomach,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR064IHX,bone_element,hematopoietic_cell,mesoderm,unknown,CL:0000050,megakaryocyte-erythroid progenitor cell,primary cell,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR065CJC,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR065LAB,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR066DPD,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR066LZB,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR066WUD,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR066XFL,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR066XXZ,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR067FKP,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR067ZDE,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR068XYW,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR068YGC,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR069TDC,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR069XHI,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR070MOK,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR071SQK,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR074RIB,brain,unknown,ectoderm,central_nervous,NTR:0000646,left cerebral cortex,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO509HIY/
+ENCSR075SNV,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR076FAM,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR076MXH,stomach,unknown,endoderm,digestive,UBERON:0000945,stomach,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR079GOY,intestine,unknown,endoderm,digestive,UBERON:0000160,intestine,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR080GQM,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR085EYQ,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR087JEN,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR087PLZ,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR088UKA,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR088UYE,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR091WNX,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR093BYV,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR093DWU,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR094QZC,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR094TTT,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR094XAY,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR095FDG,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR096JCC,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR098AHF,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR098USP,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR099BYW,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR100DLL,intestine,unknown,endoderm,digestive,UBERON:0000160,intestine,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR102NGD,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR104PWP,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR105OGF,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR106QSU,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR107SLP,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR108TWE,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR110MSZ,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR110TIW,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR113CGA,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO509HIY/
+ENCSR115FTP,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR119YTR,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR121BWA,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR122CJZ,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR122HLY,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR123MLY,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR125VVG,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR128ZCB,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR129DIK,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR129LAP,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR129OJN,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR133EGP,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR135QMP,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR136GMT,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR136XSY,bone_element,hematopoietic_cell,mesoderm,unknown,CL:0000038,erythroid progenitor cell,primary cell,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR137NUN,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR140UEX,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR140YPL,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR141ZQF,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR145TJB,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO509HIY/
+ENCSR147PYG,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR148IGO,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR149GYK,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR150EOO,intestine,unknown,endoderm,digestive,UBERON:0000160,intestine,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR150RMQ,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR151APL,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR154BXN,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR154DTK,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR157IVC,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR157LYR,intestine,unknown,endoderm,digestive,UBERON:0000160,intestine,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR158ONM,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR159RVN,intestine,unknown,endoderm,digestive,UBERON:0000160,intestine,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR161DAW,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR161UUY,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR167ZGV,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR172RHR,embryo,unknown,unknown,unknown,UBERON:0000922,embryo,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR172XOZ,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR175KBJ,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR175QZX,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR176BXC,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR176BYZ,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR179HEN,immune_organ,unknown,endoderm,endocrine,UBERON:0002370,thymus,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO509HIY/
+ENCSR179PIH,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR185JBL,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR186PIV,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR190RKJ,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR191XHV,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR193AEW,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR195NDO,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR196ENU,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR196VDE,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR197ZAV,brain,unknown,ectoderm,central_nervous,UBERON:0002037,cerebellum,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO509HIY/
+ENCSR198ACZ,intestine,unknown,endoderm,digestive,UBERON:0000160,intestine,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR203KIB,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR204ZTY,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR205UJK,adrenal_gland,unknown,ectoderm,endocrine,UBERON:0002369,adrenal gland,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO509HIY/
+ENCSR205XBQ,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR207UMX,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR211OCS,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR212KGS,embryo,embryonic_cell,unknown,unknown,EFO:0007751,E14TG2a.4,cell line,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO015AAA/
+ENCSR216UMD,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR217NOA,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR222IHX,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR223FDX,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR224ZGJ,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO509HIY/
+ENCSR227UTY,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR229LTY,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR229QKB,bone_element,hematopoietic_cell,mesoderm,unknown,CL:0000553,megakaryocyte progenitor cell,primary cell,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR231CHC,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR233LBT,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR234ISO,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR234YTN,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR235JCY,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR238SGC,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR238ZCJ,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR239TSZ,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR240OUM,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR241BSK,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR242PHH,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR243JOL,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR244ASF,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR244KCW,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR249AUA,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR250LXH,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR251LFV,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR252GKD,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR252ONR,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR253IEG,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR253QPK,embryo,embryonic_cell,unknown,unknown,EFO:0007751,E14TG2a.4,cell line,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO015AAA/
+ENCSR254AHA,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR255XTC,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR257GTR,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR257JSX,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR257PGU,bone_element,hematopoietic_cell,mesoderm,skeletal,CL:0000557,granulocyte monocyte progenitor cell,primary cell,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR258AED,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR258RGT,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR258YWW,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR259KYK,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR260OUP,intestine,unknown,endoderm,digestive,UBERON:0000160,intestine,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR261ICG,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR261OAK,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR262CSU,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR263CKR,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR263XCT,unknown,unknown,unknown,unknown,UBERON:0001851,cortex,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR264HHL,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR264TXI,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR265NBM,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR266JQW,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR270WWV,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR272GNQ,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR272XPJ,intestine,unknown,endoderm,digestive,UBERON:0000160,intestine,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR273UFV,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR274ACJ,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR275KPI,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR280ZDP,embryo,stem_cell,unknown,unknown,EFO:0002034,G1E,cell line,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR282GAG,stomach,unknown,endoderm,digestive,UBERON:0000945,stomach,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR282OTI,stomach,unknown,endoderm,digestive,UBERON:0000945,stomach,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR282YTE,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR283RFW,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR285IQN,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR286IGS,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR286OKN,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR288LNF,stomach,unknown,endoderm,digestive,UBERON:0000945,stomach,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR288OHO,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR289BTM,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR289SWJ,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR292QBA,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR293ORS,stomach,unknown,endoderm,digestive,UBERON:0000945,stomach,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR295PFM,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR295ZLV,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR297CHD,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR299DRH,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR299NCJ,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR302HOJ,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR302LIV,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR305GII,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR308GFM,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR308TAV,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR310MLB,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR311LZM,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR311TLE,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR311VKI,intestine,unknown,endoderm,digestive,UBERON:0000160,intestine,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR311YPF,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR312BOK,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR312LQX,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR312QVY,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR314FGC,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR315ZEU,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR316AZB,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR316CNR,stomach,unknown,endoderm,digestive,UBERON:0000945,stomach,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR318QFY,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR319PWR,embryo,embryonic_cell,unknown,unknown,EFO:0002076,R1,cell line,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR320CCJ,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR320EEW,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR320UJD,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR322XHD,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR323NOC,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR325JLI,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR328WMV,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR332JYZ,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR332UCY,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR333QJO,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR333ZWB,intestine,unknown,endoderm,digestive,UBERON:0000160,intestine,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR335TVR,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR335VJW,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR335WME,stomach,unknown,endoderm,digestive,UBERON:0000945,stomach,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR337EDG,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR337XUK,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR339LMJ,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR340ROY,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR340VNK,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR341XCL,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR343TXK,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR344BPJ,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR344HHI,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR345DDI,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR345HNA,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR345RKE,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR346FJG,stomach,unknown,endoderm,digestive,UBERON:0000945,stomach,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR347BFO,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR349NIS,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR351YUI,blood,hematopoietic_cell,mesoderm,immune,CL:0000775,neutrophil,primary cell,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR352AWJ,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR352NVU,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR356LBC,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR357JII,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR357OED,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR358ESL,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR358MOW,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR358XYP,intestine,unknown,endoderm,digestive,UBERON:0000160,intestine,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR360ANE,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR362PBD,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR363SKQ,stomach,unknown,endoderm,digestive,UBERON:0000945,stomach,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR365CUP,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR366VBB,blood,hematopoietic_cell,mesoderm,unknown,CL:0000037,hematopoietic stem cell,primary cell,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR367FCW,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR368RJD,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR369RBO,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR370MSK,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR371KFW,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR373LNE,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR373OCX,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR373TMR,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR375GSG,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR375RUA,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR377RKW,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR377YDY,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR380BBL,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR380VCU,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR382DRK,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR382RUC,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR384JBF,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR387YSD,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR389CLN,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR389EYR,intestine,unknown,endoderm,digestive,UBERON:0000160,intestine,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR391WSS,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR398TTY,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR399UVI,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR400TGE,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR401GRX,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR402ZLE,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR405TGI,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR406KDB,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR406VPQ,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR410YIY,intestine,unknown,endoderm,digestive,UBERON:0000160,intestine,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR412ODT,intestine,unknown,endoderm,digestive,UBERON:0000160,intestine,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR415FLZ,stomach,unknown,endoderm,digestive,UBERON:0000945,stomach,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR416OYH,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR417TXZ,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR419MSI,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR420MUV,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR424END,intestine,unknown,endoderm,digestive,UBERON:0000160,intestine,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR425FLT,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR426EZM,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR427OZM,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR427ZJU,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR427ZQB,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR428GHF,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR428OEK,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR430JWT,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR432XZX,unknown,unknown,unknown,unknown,UBERON:0001851,cortex,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR433ESG,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR436FYE,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR437NPG,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR437SFX,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR442RYY,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR445UYH,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR447BVY,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR447DOF,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR448TTC,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR449EUZ,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR450ITF,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR450ROJ,brain,unknown,ectoderm,central_nervous,NTR:0000647,right cerebral cortex,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO509HIY/
+ENCSR451NAE,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR452WYC,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR453AWR,blood,hematopoietic_cell,mesoderm,unknown,CL:0000037,hematopoietic stem cell,primary cell,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR455REA,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR455UTX,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR457HDY,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR458FBL,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR458PAO,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR460BUL,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR462BZP,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR462KTT,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR463GJL,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR464MQU,intestine,unknown,endoderm,digestive,UBERON:0000160,intestine,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR465PLB,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR465PYP,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR465TIZ,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR466ZQC,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR467UGM,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR468GUI,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR469VGZ,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR471SJG,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR472YGQ,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR479LFP,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR481SGM,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR483DEV,stomach,unknown,endoderm,digestive,UBERON:0000945,stomach,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR483KOD,intestine,unknown,endoderm,digestive,UBERON:0000160,intestine,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR485GTY,intestine,unknown,endoderm,digestive,UBERON:0000160,intestine,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR486MHP,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR486XAS,stomach,unknown,endoderm,digestive,UBERON:0000945,stomach,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR487OLC,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR487RAU,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR488KVB,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR488OCA,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR488VEQ,eye,unknown,ectoderm,sensory,UBERON:0000966,retina,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR489HYX,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR496TBX,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR498DQA,bone_element,hematopoietic_cell,mesoderm,skeletal,CL:0000556,megakaryocyte,primary cell,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR498EVD,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR499NUH,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR501GBJ,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR502WUI,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR508HYL,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR510CGB,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR511LWL,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR511WPK,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR515XWH,intestine,unknown,endoderm,digestive,UBERON:0000160,intestine,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR516KLO,stomach,unknown,endoderm,digestive,UBERON:0000945,stomach,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR516TYD,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR517UZA,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR519DNE,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR522LXN,stomach,unknown,endoderm,digestive,UBERON:0000945,stomach,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR523IIH,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR525BTK,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR526JRI,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR527EUE,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR529ERN,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR531RZS,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR534HMF,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR535NVF,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR536ILV,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR537AKT,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR538DPG,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR538SRO,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR545BRW,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR546ANT,stomach,unknown,endoderm,digestive,UBERON:0000945,stomach,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR547PLI,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR548BCO,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR548BKP,stomach,unknown,endoderm,digestive,UBERON:0000945,stomach,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR549RVJ,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR550QED,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR551WBK,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR552ABC,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR553IWV,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR554JQP,brain,unknown,ectoderm,central_nervous,UBERON:0002037,cerebellum,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR554TSO,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR556DLJ,stomach,unknown,endoderm,digestive,UBERON:0000945,stomach,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR556ZUY,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR557SVH,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR558NWQ,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR559FAJ,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR560CIG,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR561FZE,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR564JKR,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR564XSR,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR569DBO,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR569UCG,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR570HJI,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR571HOT,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR571WQI,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR572KYR,intestine,unknown,endoderm,digestive,UBERON:0000160,intestine,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR574VME,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR575YLW,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO509HIY/
+ENCSR576XBN,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR577SDJ,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR578RLI,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR579RZO,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR579UVB,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR580MEU,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR581EJK,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR581FAT,stomach,unknown,endoderm,digestive,UBERON:0000945,stomach,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR581ZXI,spleen,unknown,mesoderm,immune,UBERON:0002106,spleen,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO509HIY/
+ENCSR582IBX,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR582SPN,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR592GQI,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR594HUH,brain,unknown,ectoderm,central_nervous,UBERON:0002037,cerebellum,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO509HIY/
+ENCSR594JGI,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR597BGP,stomach,unknown,endoderm,digestive,UBERON:0000945,stomach,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR599GVS,intestine,unknown,endoderm,digestive,UBERON:0000160,intestine,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR599PKR,stomach,unknown,endoderm,digestive,UBERON:0000945,stomach,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR603MWL,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR604AMS,intestine,unknown,endoderm,digestive,UBERON:0000160,intestine,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR604DCI,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR606AJV,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR607HIQ,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR607QZE,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR608QBO,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR609OHJ,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR616TJM,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR617VBE,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR618HDK,stomach,unknown,endoderm,digestive,UBERON:0000945,stomach,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR623GSD,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR627OCR,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR629AFL,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR630AOU,stomach,unknown,endoderm,digestive,UBERON:0000945,stomach,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR631KAJ,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR631QAE,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR634GFJ,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR634ZDI,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO509HIY/
+ENCSR636NXY,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR637CCT,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR639DND,intestine,unknown,endoderm,digestive,UBERON:0000160,intestine,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR639IQR,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR639KSW,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR639OQQ,musculature,unknown,unknown,musculature,UBERON:0001388,gastrocnemius,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO509HIY/
+ENCSR641EME,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR642VYW,intestine,unknown,endoderm,digestive,UBERON:0000160,intestine,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR642ZLN,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR645ETR,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR647OTD,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR650UAC,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR652CNN,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR653AVN,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR654VMK,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR655WKX,intestine,unknown,endoderm,digestive,UBERON:0000160,intestine,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR656AMS,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR658BBG,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR658TDS,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR661GMU,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR661HDP,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR662KNY,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR663VWL,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR666HFH,eye,neural_cell,ectoderm,sensory,CL:0011107,Muller cell,primary cell,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR668BBX,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR668EIA,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR669AQL,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR670YXP,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR671NSS,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR671SQM,gonad,unknown,mesoderm,reproductive,UBERON:0000473,testis,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO509HIY/
+ENCSR672ZXY,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR674PZU,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR675HDX,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR678FIT,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR684UWM,stomach,unknown,endoderm,digestive,UBERON:0000945,stomach,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR687EAW,connective_tissue,connective_tissue_cell,unknown,unknown,EFO:0001084,3T3-L1,cell line,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR687JCD,embryo,unknown,unknown,unknown,UBERON:0000922,embryo,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR688ZOR,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR689NXE,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR690VOH,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR691NQH,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR692ASO,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO509HIY/
+ENCSR693UWX,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR695FPP,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR698WCJ,intestine,unknown,endoderm,digestive,UBERON:0000160,intestine,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR699XHY,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR700QBR,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR701GKO,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR702JYV,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR703TBR,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR704IWS,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR706PSQ,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR706SZI,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR707DZS,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR709CLU,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR711SVB,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR717XCU,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR718CAJ,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR721MSV,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR723IXU,embryo,unknown,unknown,unknown,UBERON:0000922,embryo,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR724UJS,blood,hematopoietic_cell,endoderm,immune,CL:0000815,regulatory T cell,primary cell,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO820VCL/
+ENCSR730MYK,immune_organ,unknown,endoderm,endocrine,UBERON:0002370,thymus,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO509HIY/
+ENCSR731KRE,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR731OMP,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR732IZK,spinal_cord,neural_cell,ectoderm,central_nervous,EFO:0007601,MN1,cell line,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR732OTZ,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR734IEL,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR735VEJ,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR736GVO,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR737JHU,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR737QWV,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR739DVM,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR740DYF,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR742DUR,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR744LCN,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR747VPY,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR747ZXL,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR748BQH,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR749ILN,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR749PZB,intestine,unknown,endoderm,digestive,UBERON:0000160,intestine,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR751AAB,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR751HEG,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR754AXU,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR755PMX,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR755SGK,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR756SPS,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR758FWH,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR758IRM,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR758UAI,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR759RVE,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR764UIE,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR765JWZ,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR765SJF,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR765UOU,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR767AJS,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR769ITO,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR770OXU,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR771ILS,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR773EGV,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR773SAG,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR774TQO,embryo,unknown,unknown,unknown,UBERON:0000922,embryo,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR775YJL,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR776QRL,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR776RJR,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR779MSI,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR780NWL,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR781ORQ,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR782DEA,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR782DGO,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR782SUW,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR784TLR,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR785NEL,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR789AYI,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR790LOX,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR791AJY,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR793RAV,bone_element,hematopoietic_cell,mesoderm,circulatory,CL:0000765,erythroblast,primary cell,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR795UOC,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR797EYS,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR798FDL,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR798VHN,stomach,unknown,endoderm,digestive,UBERON:0000945,stomach,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR802RET,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR809NWL,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR810EOA,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR810HQR,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR813SCQ,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR819QOJ,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR820ACB,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR821GHK,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR825OWH,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR825ZJV,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR826JKN,blood,hematopoietic_cell,unknown,immune,NTR:0004148,activated regulatory T-cell,primary cell,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO820VCL/
+ENCSR826TJQ,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR829YGD,intestine,unknown,endoderm,digestive,UBERON:0000160,intestine,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR831EKS,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR831YAX,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR835BZO,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR836PUC,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR837SKW,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR837TJD,adrenal_gland,unknown,ectoderm,endocrine,UBERON:0002369,adrenal gland,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO509HIY/
+ENCSR839WFP,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR840QFC,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR846PJO,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR846ZCW,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR846ZTT,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR855NKG,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR857GQI,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR857MYS,embryo,embryonic_cell,unknown,unknown,EFO:0007751,E14TG2a.4,cell line,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO015AAA/
+ENCSR858AUB,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR861MUP,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR862JVD,blood,hematopoietic_cell,mesoderm,immune,CL:0000576,monocyte,primary cell,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR863VHE,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR864DSI,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR864OWV,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR868FWZ,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR871CGP,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR871KVM,intestine,unknown,endoderm,digestive,UBERON:0000160,intestine,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR871YCT,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR872WGX,stomach,unknown,endoderm,digestive,UBERON:0000945,stomach,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR875KRK,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR875ZAO,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR876SYO,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR883ASH,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR884MYD,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR886DWH,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR886IHN,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR889MYY,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR889WQX,brain,unknown,ectoderm,central_nervous,UBERON:0001870,frontal cortex,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR890ACP,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR891SAW,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR894HWV,extraembryonic_component,unknown,unknown,unknown,UBERON:0001040,yolk sac,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR894JAS,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR895BMP,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR896XIN,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR897WBY,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR898WIS,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR903GMO,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR905FFU,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR906RTN,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR906UJW,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR907CPZ,stomach,unknown,endoderm,digestive,UBERON:0000945,stomach,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR912IXU,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR914PYX,bone_element,hematopoietic_cell,mesoderm,unknown,CL:0000049,common myeloid progenitor,primary cell,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO072AAA/
+ENCSR914QGB,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR916CBN,stomach,unknown,endoderm,digestive,UBERON:0000945,stomach,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR918ZSJ,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR919DDC,intestine,unknown,endoderm,digestive,UBERON:0000160,intestine,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR921ILW,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR924FJQ,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR928CYU,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR928IYZ,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR929GXP,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR929SEW,stomach,unknown,endoderm,digestive,UBERON:0000945,stomach,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR930AFR,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR932BNP,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR935RRY,immune_organ,unknown,endoderm,endocrine,UBERON:0002370,thymus,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR938MUD,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR940CMI,stomach,unknown,endoderm,digestive,UBERON:0000945,stomach,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR943QUH,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR944XPB,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR946JEA,stomach,unknown,endoderm,digestive,UBERON:0000945,stomach,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR946RLM,intestine,unknown,endoderm,digestive,UBERON:0000160,intestine,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR947QOH,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR948RYN,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR948VPV,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR951UWY,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR953HNY,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR953KTY,intestine,unknown,endoderm,digestive,UBERON:0000160,intestine,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR953LFI,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR956ZCG,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR959HKR,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR961MEP,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR961PNM,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR961SMM,intestine,unknown,endoderm,digestive,UBERON:0000160,intestine,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR962MBB,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR963OLG,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR964RRJ,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR965JWF,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR966AIB,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR966ORC,intestine,unknown,endoderm,digestive,UBERON:0000160,intestine,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR966RAG,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR966TCN,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR968NPX,heart,unknown,mesoderm,circulatory,UBERON:0000948,heart,tissue,Mus musculus,Histone ChIP-seq,H3K9ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR969CPK,stomach,unknown,endoderm,digestive,UBERON:0000945,stomach,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR969NXN,lung,unknown,endoderm,respiratory,UBERON:0002048,lung,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR969OPE,stomach,unknown,endoderm,digestive,UBERON:0000945,stomach,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR972LUE,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR972MRN,spleen,cancer_cell,mesoderm,immune,EFO:0003971,MEL,cell line,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO073AAA/
+ENCSR972MUO,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K36me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR972WEN,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR973AYQ,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K4me2-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR973UGS,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR975QEX,stomach,unknown,endoderm,digestive,UBERON:0000945,stomach,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR975QSF,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR976GSO,stomach,unknown,endoderm,digestive,UBERON:0000945,stomach,tissue,Mus musculus,Histone ChIP-seq,H3K9me3-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR976LWP,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR977DCO,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO469XMJ/
+ENCSR983JWA,epithelium,unknown,ectoderm,unknown,UBERON:0001049,neural tube,tissue,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR983KOM,brain,unknown,ectoderm,central_nervous,UBERON:0002037,cerebellum,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR984OHL,brain,unknown,ectoderm,central_nervous,UBERON:0002028,hindbrain,tissue,Mus musculus,Histone ChIP-seq,H3K27me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR984XSP,kidney,unknown,mesoderm,excretory,UBERON:0002113,kidney,tissue,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO509HIY/
+ENCSR985UTP,liver,unknown,endoderm,endocrine,UBERON:0002107,liver,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR988BRP,limb,unknown,ectoderm,musculature,UBERON:0002101,limb,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR989LUY,brain,unknown,ectoderm,central_nervous,UBERON:0001891,midbrain,tissue,Mus musculus,Histone ChIP-seq,H3K27ac-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR990JMN,embryo,unknown,unknown,unknown,UBERON:0012314,embryonic facial prominence,tissue,Mus musculus,Histone ChIP-seq,H3K4me3-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR992SHK,brain,unknown,ectoderm,central_nervous,UBERON:0001890,forebrain,tissue,Mus musculus,Histone ChIP-seq,H3K4me1-mouse,mm10,/mouse-donors/ENCDO956IXV/
+ENCSR993QKC,blood,hematopoietic_cell,unknown,immune,NTR:0004218,inflammation-experienced regulatory T-cells,primary cell,Mus musculus,ATAC-seq,ATAC-seq,mm10,/mouse-donors/ENCDO820VCL/
+ENCSR998KYQ,connective_tissue,connective_tissue_cell,mesoderm,unknown,CL:0000136,adipocyte,in vitro differentiated cells,Mus musculus,DNase-seq,DNase-seq,mm10,/mouse-donors/ENCDO072AAA/

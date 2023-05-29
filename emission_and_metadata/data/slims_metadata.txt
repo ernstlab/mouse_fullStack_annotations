@@ -1,0 +1,902 @@
+experimentID	organ_slims	cell_slims	developmental_slims	system_slims	biosample_summary	simple_biosample_summary
+ENCSR000ADP	['spleen', 'immune organ']	['cancer cell']	['mesoderm']	['immune system', 'digestive system']	Mus musculus strain MEL MEL	strain MEL DBA/2
+ENCSR000CER	['spleen', 'immune organ']	['cancer cell']	['mesoderm']	['immune system', 'digestive system']	Mus musculus strain MEL MEL	strain MEL DBA/2
+ENCSR000DHY	['lymph node', 'blood', 'bodily fluid']	['B cell', 'leukocyte', 'hematopoietic cell']	['mesoderm']	['immune system']	Mus musculus strain B10.H-2aH-4bp/Wts CH12.LX	strain B10.H-2aH-4bp/Wts B10.H-2aH-4bp/Wts
+ENCSR000AHR	['musculature of body']	['embryonic cell', 'myoblast']	['mesoderm']	['musculature']	Mus musculus C2C12	C3H
+ENCSR000AHM	['musculature of body']	[]	['mesoderm']	['musculature']	Mus musculus myocyte originated from C2C12	C3H
+ENCSR059MBO	['embryo']	['embryonic cell', 'stem cell']	[]	[]	Mus musculus strain 129/Ola E14TG2a.4	strain 129/Ola 129
+ENCSR642ZLN	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR550QED	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR570HJI	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR135QMP	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR337XUK	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap liver tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR973UGS	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap liver tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR244KCW	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR758FWH	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NCrl lung tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR861MUP	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NCrl lung tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR061DPP	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR231CHC	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR257GTR	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR085EYQ	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR701GKO	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR148IGO	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NTac;B6NCrl/Lap lung tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR765SJF	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NTac;B6NCrl/Lap limb tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR399UVI	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NTac;B6NCrl/Lap kidney tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR871KVM	['intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl intestine tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR282GAG	['stomach']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl stomach tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR515XWH	['intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl intestine tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR946JEA	['stomach']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl stomach tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR014YAY	['intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap intestine tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR457HDY	['embryo']	[]	[]	[]	Mus musculus strain B6NTac;B6NCrl/Lap embryonic facial prominence tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR240OUM	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR375GSG	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR375RUA	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR545BRW	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR944XPB	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR302HOJ	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR736GVO	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR837SKW	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR129OJN	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR580MEU	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR928IYZ	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR465TIZ	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR857GQI	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR259KYK	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR953LFI	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap hindbrain tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR340ROY	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap midbrain tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR658BBG	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR564XSR	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR929GXP	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap midbrain tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR831YAX	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap forebrain tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR070MOK	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap forebrain tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR308TAV	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap hindbrain tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR046SWI	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR099BYW	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NTac;B6NCrl/Lap neural tube tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR389EYR	['intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap intestine tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR790LOX	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NTac;B6NCrl/Lap heart tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR357OED	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NTac;B6NCrl/Lap heart tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR781ORQ	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR437NPG	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR963OLG	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR266JQW	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR122HLY	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR380BBL	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR709CLU	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR229LTY	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR008WOQ	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR740DYF	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NCrl kidney tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR906RTN	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR285IQN	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR984OHL	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR104PWP	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR297CHD	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR966TCN	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR735VEJ	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR607QZE	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NCrl kidney tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR564JKR	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NTac;B6NCrl/Lap kidney tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR064DGY	['stomach']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap stomach tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR025AOC	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NTac;B6NCrl/Lap lung tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR969CPK	['stomach']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap stomach tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR000CFN	['embryo']	['embryonic cell', 'stem cell']	[]	[]	Mus musculus strain Bruce4 ES-Bruce4	strain Bruce4 C57BL/6
+ENCSR000CFR	['intestine', 'small intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl small intestine tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CGC	['immune organ', 'thymus', 'endocrine gland']	[]	['endoderm', 'mesoderm']	['endocrine system', 'immune system']	Mus musculus strain B6NCrl thymus tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CGA	['spleen', 'immune organ']	[]	['mesoderm']	['immune system', 'digestive system']	Mus musculus strain B6NCrl spleen tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CGB	['gonad', 'testis']	[]	['mesoderm']	['reproductive system']	Mus musculus strain B6NCrl testis tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CFX	['blood', 'bodily fluid', 'spleen']	['hematopoietic cell', 'leukocyte', 'B cell']	[]	['immune system']	Mus musculus strain C57BL/6J splenic B cell male adult (8 weeks)	male adult (8 weeks) strain C57BL/6J C57BL/6
+ENCSR000CEN	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CEJ	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CFP	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NCrl kidney tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CFM	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl cerebellum tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000DHP	['bone element', 'bone marrow']	['hematopoietic cell', 'myeloid cell']	['mesoderm']	['circulatory system']	Mus musculus erythroblast embryo (14.5 days)	mixed sex embryo (14.5 days) CD-1
+ENCSR000DHF	['bone element', 'bone marrow']	['hematopoietic cell', 'myeloid cell']	['mesoderm']	['skeletal system', 'immune system']	Mus musculus megakaryocyte embryo (14.5 days)	mixed sex embryo (14.5 days) CD-1
+ENCSR000DHX	['embryo']	['stem cell']	[]	[]	Mus musculus G1E	129
+ENCSR380VCU	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR014SFF	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR773SAG	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR756SPS	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR289BTM	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR358ESL	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR661GMU	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR775YJL	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR723IXU	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryo tissue embryo (10 days)	mixed sex embryo (10 days) strain B6NCrl C57BL/6
+ENCSR661HDP	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR774TQO	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryo tissue embryo (11 days)	mixed sex embryo (11 days) strain B6NCrl C57BL/6
+ENCSR172RHR	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryo tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR687JCD	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryo tissue embryo (9.5 days)	mixed sex embryo (9.5 days) strain B6NCrl C57BL/6
+ENCSR196VDE	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR000CNB	['embryo']	[]	['ectoderm', 'mesoderm']	['integumental system']	Mus musculus forelimb bud tissue male embryo (11.5 days)	male embryo (11.5 days) CD-1
+ENCSR000CNF	['embryo']	[]	['ectoderm', 'mesoderm']	['integumental system']	Mus musculus hindlimb bud tissue male embryo (11.5 days)	male embryo (11.5 days) CD-1
+ENCSR000CND	['embryo']	[]	[]	[]	Mus musculus embryo tissue male embryo (11.5 days) depleted in head	male embryo (11.5 days) CD-1 depleted in head
+ENCSR000CNO	['embryo']	[]	['mesoderm']	[]	Mus musculus mesoderm tissue male embryo (11.5 days)	male embryo (11.5 days) CD-1
+ENCSR312QVY	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR488VEQ	['eye']	[]	['ectoderm']	['sensory system']	Mus musculus strain B6NCrl retina tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NCrl C57BL/6
+ENCSR292QBA	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR000CNV	['eye']	[]	['ectoderm']	['sensory system']	Mus musculus strain C57BL/6J retina tissue male postnatal (1 day)	male postnatal (1 day) strain C57BL/6J C57BL/6
+ENCSR367FCW	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NCrl C57BL/6
+ENCSR179PIH	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NCrl C57BL/6
+ENCSR337EDG	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NCrl C57BL/6
+ENCSR000COE	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain C57BL/6J brain tissue male embryo (14.5 days)	male embryo (14.5 days) strain C57BL/6J C57BL/6
+ENCSR791AJY	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NCrl C57BL/6
+ENCSR000COG	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain C57BL/6J brain tissue male embryo (18.5 days)	male embryo (18.5 days) strain C57BL/6J C57BL/6
+ENCSR310MLB	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap forebrain tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR810HQR	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap forebrain tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR903GMO	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR976LWP	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR836PUC	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR623GSD	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR662KNY	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR176BYZ	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR700QBR	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NTac;B6NCrl/Lap neural tube tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR983JWA	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR217NOA	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR096JCC	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR468GUI	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR819QOJ	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR088UYE	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR559FAJ	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR154BXN	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR012YAB	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR273UFV	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR382RUC	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR690VOH	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR282YTE	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR384JBF	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap midbrain tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR211OCS	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap midbrain tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR798FDL	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap hindbrain tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR312LQX	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap hindbrain tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR983KOM	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl cerebellum tissue	strain B6NCrl C57BL/6
+ENCSR432XZX	[]	[]	[]	[]	Mus musculus strain B6NCrl cortex tissue	strain B6NCrl C57BL/6
+ENCSR197ZAV	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6CASTF1/J cerebellum tissue female (14 days)	female (14 days) strain B6CASTF1/J C57BL/6JxCAST/EiJ
+ENCSR594HUH	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6CASTF1/J cerebellum tissue male (10 days)	male (10 days) strain B6CASTF1/J C57BL/6JxCAST/EiJ
+ENCSR026MFT	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6CASTF1/J cerebellum tissue male (14 days)	male (14 days) strain B6CASTF1/J C57BL/6JxCAST/EiJ
+ENCSR263XCT	[]	[]	[]	[]	Mus musculus strain B6NCrl cortex tissue	strain B6NCrl C57BL/6
+ENCSR767AJS	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NCrl C57BL/6
+ENCSR469VGZ	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NCrl C57BL/6
+ENCSR000COF	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain C57BL/6J brain tissue male adult (8 weeks)	male adult (8 weeks) strain C57BL/6J C57BL/6
+ENCSR889WQX	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl frontal cortex tissue adult	adult strain B6NCrl C57BL/6
+ENCSR000CMP	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain C57BL/6J telencephalon tissue male adult (8 weeks)	male adult (8 weeks) strain C57BL/6J C57BL/6
+ENCSR000CMO	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain C57BL/6J cerebellum tissue male adult (8 weeks)	male adult (8 weeks) strain C57BL/6J C57BL/6
+ENCSR554JQP	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl cerebellum tissue adult	adult strain B6NCrl C57BL/6
+ENCSR000CNW	['eye']	[]	['ectoderm']	['sensory system']	Mus musculus strain C57BL/6J retina tissue male adult (8 weeks)	male adult (8 weeks) strain C57BL/6J C57BL/6
+ENCSR000CNU	['eye']	[]	['ectoderm']	['sensory system']	Mus musculus strain C57BL/6J retina tissue male postnatal (7 days)	male postnatal (7 days) strain C57BL/6J C57BL/6
+ENCSR150RMQ	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR031HDN	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR551WBK	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR377YDY	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR896XIN	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR460BUL	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NTac;B6NCrl/Lap limb tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR618HDK	['stomach']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap stomach tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR389CLN	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NTac;B6NCrl/Lap kidney tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR150EOO	['intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap intestine tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR758IRM	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NTac;B6NCrl/Lap kidney tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR732OTZ	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NCrl kidney tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR023QZX	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NCrl kidney tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR335VJW	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NTac;B6NCrl/Lap lung tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR627OCR	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NCrl lung tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR102NGD	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NTac;B6NCrl/Lap lung tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR363SKQ	['stomach']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl stomach tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR668EIA	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NCrl lung tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR486XAS	['stomach']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl stomach tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR652CNN	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR820ACB	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR068YGC	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NTac;B6NCrl/Lap heart tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR603MWL	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR371KFW	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR451NAE	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NTac;B6NCrl/Lap heart tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR000CMJ	['breast']	['cancer cell']	[]	[]	Mus musculus strain 3134 3134	strain 3134 RIII
+ENCSR000CMZ	['adipose tissue', 'connective tissue']	[]	['mesoderm']	[]	Mus musculus strain C57BL/6J fat pad tissue male adult (8 weeks)	male adult (8 weeks) strain C57BL/6J C57BL/6
+ENCSR000CNC	['gonad', 'connective tissue', 'adipose tissue']	[]	['mesoderm']	['reproductive system']	Mus musculus strain C57BL/6J gonadal fat pad tissue male adult (8 weeks)	male adult (8 weeks) strain C57BL/6J C57BL/6
+ENCSR000CNT	['connective tissue', 'kidney']	['connective tissue cell', 'fibroblast']	['mesoderm']	['excretory system']	Mus musculus strain Patski Patski	strain Patski M.spretus x C57BL/6J
+ENCSR000CNA	['lung', 'connective tissue']	['connective tissue cell', 'fibroblast']	['endoderm']	['respiratory system']	Mus musculus strain C57BL/6J fibroblast of lung male adult (8 weeks)	male adult (8 weeks) strain C57BL/6J C57BL/6
+ENCSR000CNS	['connective tissue', 'embryo']	['connective tissue cell', 'fibroblast']	[]	[]	Mus musculus strain NIH3T3 NIH3T3	strain NIH3T3 NIH/Swiss
+ENCSR687EAW	['connective tissue', 'embryo']	['connective tissue cell', 'fibroblast']	[]	[]	Mus musculus strain C57BL/6J 3T3-L1	strain C57BL/6J C57BL/6
+ENCSR998KYQ	['connective tissue']	['connective tissue cell']	['mesoderm']	[]	Mus musculus strain C57BL/6J adipocyte	strain C57BL/6J C57BL/6
+ENCSR000CNI	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain C57BL/6J liver tissue male adult (8 weeks)	male adult (8 weeks) strain C57BL/6J C57BL/6
+ENCSR000CNH	['intestine', 'large intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain C57BL/6J large intestine tissue male adult (8 weeks)	male adult (8 weeks) strain C57BL/6J C57BL/6
+ENCSR000CNG	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain C57BL/6J kidney tissue male adult (8 weeks)	male adult (8 weeks) strain C57BL/6J C57BL/6
+ENCSR000CNM	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain C57BL/6J lung tissue male adult (8 weeks)	male adult (8 weeks) strain C57BL/6J C57BL/6
+ENCSR000CNE	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain C57BL/6J heart tissue male adult (8 weeks)	male adult (8 weeks) strain C57BL/6J C57BL/6
+ENCSR145TJB	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6CASTF1/J heart tissue male (4 days)	male (4 days) strain B6CASTF1/J C57BL/6JxCAST/EiJ
+ENCSR005WPU	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue postnatal (0 days)	postnatal (0 days) strain B6NCrl C57BL/6
+ENCSR094XAY	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NCrl lung tissue postnatal (0 days)	postnatal (0 days) strain B6NCrl C57BL/6
+ENCSR224ZGJ	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6CASTF1/J lung tissue female (4 days)	female (4 days) strain B6CASTF1/J C57BL/6JxCAST/EiJ
+ENCSR984XSP	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6CASTF1/J kidney tissue male (10 days)	male (10 days) strain B6CASTF1/J C57BL/6JxCAST/EiJ
+ENCSR205UJK	['adrenal gland', 'endocrine gland']	[]	['ectoderm', 'mesoderm']	['endocrine system']	Mus musculus strain B6CASTF1/J adrenal gland tissue male (14 days)	male (14 days) strain B6CASTF1/J C57BL/6JxCAST/EiJ
+ENCSR837TJD	['adrenal gland', 'endocrine gland']	[]	['ectoderm', 'mesoderm']	['endocrine system']	Mus musculus strain B6CASTF1/J adrenal gland tissue female (14 days)	female (14 days) strain B6CASTF1/J C57BL/6JxCAST/EiJ
+ENCSR023EDS	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6CASTF1/J kidney tissue male (25 days)	male (25 days) strain B6CASTF1/J C57BL/6JxCAST/EiJ
+ENCSR575YLW	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6CASTF1/J lung tissue male (10 days)	male (10 days) strain B6CASTF1/J C57BL/6JxCAST/EiJ
+ENCSR000CNX	['musculature of body']	[]	['mesoderm']	['musculature']	Mus musculus strain C57BL/6J skeletal muscle tissue tissue male adult (8 weeks)	male adult (8 weeks) strain C57BL/6J C57BL/6
+ENCSR597BGP	['stomach']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap stomach tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR966ORC	['intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl intestine tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR961SMM	['intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl intestine tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR894HWV	['extraembryonic component', 'epithelium']	[]	[]	[]	Mus musculus strain B6NCrl yolk sac tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR634ZDI	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6CASTF1/J kidney tissue female (4 days)	female (4 days) strain B6CASTF1/J C57BL/6JxCAST/EiJ
+ENCSR692ASO	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6CASTF1/J kidney tissue male (4 days)	male (4 days) strain B6CASTF1/J C57BL/6JxCAST/EiJ
+ENCSR969OPE	['stomach']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl stomach tissue postnatal (0 days)	postnatal (0 days) strain B6NCrl C57BL/6
+ENCSR113CGA	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6CASTF1/J kidney tissue female (14 days)	female (14 days) strain B6CASTF1/J C57BL/6JxCAST/EiJ
+ENCSR671SQM	['gonad', 'testis']	[]	['mesoderm']	['reproductive system']	Mus musculus strain B6CASTF1/J testis tissue male (10 days)	male (10 days) strain B6CASTF1/J C57BL/6JxCAST/EiJ
+ENCSR639OQQ	['musculature of body', 'limb']	[]	[]	['musculature']	Mus musculus strain B6CASTF1/J gastrocnemius tissue male (4 days)	male (4 days) strain B6CASTF1/J C57BL/6JxCAST/EiJ
+ENCSR074RIB	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6CASTF1/J left cerebral cortex tissue male (10 days)	male (10 days) strain B6CASTF1/J C57BL/6JxCAST/EiJ
+ENCSR450ROJ	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6CASTF1/J right cerebral cortex tissue male (10 days)	male (10 days) strain B6CASTF1/J C57BL/6JxCAST/EiJ
+ENCSR749ILN	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR561FZE	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR216UMD	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue postnatal (0 days)	postnatal (0 days) strain B6NCrl C57BL/6
+ENCSR789AYI	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue	strain B6NCrl C57BL/6
+ENCSR581ZXI	['spleen', 'immune organ']	[]	['mesoderm']	['immune system', 'digestive system']	Mus musculus strain B6CASTF1/J spleen tissue male (10 days)	male (10 days) strain B6CASTF1/J C57BL/6JxCAST/EiJ
+ENCSR730MYK	['immune organ', 'thymus', 'endocrine gland']	[]	['endoderm', 'mesoderm']	['endocrine system', 'immune system']	Mus musculus strain B6CASTF1/J thymus tissue female (4 days)	female (4 days) strain B6CASTF1/J C57BL/6JxCAST/EiJ
+ENCSR179HEN	['immune organ', 'thymus', 'endocrine gland']	[]	['endoderm', 'mesoderm']	['endocrine system', 'immune system']	Mus musculus strain B6CASTF1/J thymus tissue male (10 days)	male (10 days) strain B6CASTF1/J C57BL/6JxCAST/EiJ
+ENCSR000CMM	['blood', 'bodily fluid']	['B cell', 'leukocyte', 'hematopoietic cell']	['endoderm', 'mesoderm']	['immune system']	Mus musculus strain C57BL/6J B cell male adult (8 weeks)	male adult (8 weeks) strain C57BL/6J C57BL/6
+ENCSR000COB	['immune organ', 'thymus', 'endocrine gland']	[]	['endoderm', 'mesoderm']	['endocrine system', 'immune system']	Mus musculus strain C57BL/6J thymus tissue male adult (8 weeks)	male adult (8 weeks) strain C57BL/6J C57BL/6
+ENCSR000COD	['blood', 'bodily fluid']	['hematopoietic cell', 'T cell', 'leukocyte']	['endoderm', 'mesoderm']	['immune system']	Mus musculus strain C57BL/6J induced T-regulatory cell male adult (8 weeks)	male adult (8 weeks) strain C57BL/6J C57BL/6
+ENCSR000CNZ	['blood', 'bodily fluid']	['hematopoietic cell', 'T cell', 'CD4+ T cell', 'leukocyte']	['endoderm', 'mesoderm']	['immune system']	Mus musculus strain C57BL/6J naive thymus-derived CD4-positive, alpha-beta T cell male adult (8 weeks)	male adult (8 weeks) strain C57BL/6J C57BL/6
+ENCSR000COC	['blood', 'bodily fluid']	['hematopoietic cell', 'T cell', 'CD4+ T cell', 'leukocyte']	['endoderm', 'mesoderm']	['immune system']	Mus musculus strain C57BL/6J CD4-positive, CD25-positive, alpha-beta regulatory T cell male adult (8 weeks)	male adult (8 weeks) strain C57BL/6J C57BL/6
+ENCSR000CMN	['blood', 'bodily fluid', 'spleen']	['hematopoietic cell', 'leukocyte', 'B cell']	[]	['immune system']	Mus musculus strain C57BL/6J splenic B cell male adult (8 weeks)	male adult (8 weeks) strain C57BL/6J C57BL/6
+ENCSR000COA	['blood', 'bodily fluid']	['hematopoietic cell', 'T cell', 'leukocyte']	['endoderm', 'mesoderm']	['immune system']	Mus musculus strain C57BL/6J CD4-positive helper T cell male adult (8 weeks)	male adult (8 weeks) strain C57BL/6J C57BL/6
+ENCSR935RRY	['immune organ', 'thymus', 'endocrine gland']	[]	['endoderm', 'mesoderm']	['endocrine system', 'immune system']	Mus musculus strain B6NCrl thymus tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NCrl C57BL/6
+ENCSR257PGU	['bone element', 'bone marrow']	['hematopoietic cell', 'progenitor cell', 'myeloid cell']	['mesoderm']	['skeletal system', 'immune system']	Mus musculus strain C57BL/6J granulocyte monocyte progenitor cell male adult (5-6 weeks)	male adult (5-6 weeks) strain C57BL/6J C57BL/6
+ENCSR914PYX	['bone element', 'bone marrow']	['hematopoietic cell', 'progenitor cell']	['mesoderm']	[]	Mus musculus strain C57BL/6J common myeloid progenitor male adult (5-6 weeks)	male adult (5-6 weeks) strain C57BL/6J C57BL/6
+ENCSR229QKB	['bone element', 'bone marrow']	['hematopoietic cell', 'progenitor cell', 'myeloid cell']	['mesoderm']	[]	Mus musculus strain C57BL/6J megakaryocyte progenitor cell male adult (5-6 weeks)	male adult (5-6 weeks) strain C57BL/6J C57BL/6
+ENCSR000CMS	[]	['hematopoietic cell', 'progenitor cell', 'myeloid cell']	[]	[]	Mus musculus c-Kit-positive CD71-negative TER-119-negative erythroid progenitor cells male embryo (14.5 days)	male embryo (14.5 days) CD-1
+ENCSR498DQA	['bone element', 'bone marrow']	['hematopoietic cell', 'myeloid cell']	['mesoderm']	['skeletal system', 'immune system']	Mus musculus strain C57BL/6J megakaryocyte male adult (5-6 weeks)	male adult (5-6 weeks) strain C57BL/6J C57BL/6
+ENCSR366VBB	['blood', 'bodily fluid']	['hematopoietic cell', 'stem cell']	['mesoderm']	[]	Mus musculus strain C57BL/6J hematopoietic stem cell adult (5-6 weeks)	adult (5-6 weeks) strain C57BL/6J C57BL/6
+ENCSR453AWR	['blood', 'bodily fluid']	['hematopoietic cell', 'stem cell']	['mesoderm']	[]	Mus musculus strain C57BL/6J hematopoietic stem cell male adult (5-6 weeks)	male adult (5-6 weeks) strain C57BL/6J C57BL/6
+ENCSR351YUI	['blood', 'bodily fluid']	['hematopoietic cell', 'leukocyte', 'myeloid cell']	['mesoderm']	['immune system']	Mus musculus strain C57BL/6J neutrophil adult (5-6 weeks)	adult (5-6 weeks) strain C57BL/6J C57BL/6
+ENCSR000CNY	['spleen', 'immune organ']	[]	['mesoderm']	['immune system', 'digestive system']	Mus musculus strain C57BL/6J spleen tissue male adult (8 weeks)	male adult (8 weeks) strain C57BL/6J C57BL/6
+ENCSR993QKC	['blood', 'bodily fluid']	['hematopoietic cell', 'T cell', 'leukocyte']	[]	['immune system']	Mus musculus strain Foxp3CreERT2 x Rosa26YFP inflammation-experienced regulatory T-cells male adult (6 months) originated from bone marrow hematopoietic cell	male adult (6 months) strain Foxp3CreERT2 x Rosa26YFP
+ENCSR724UJS	['blood', 'bodily fluid']	['hematopoietic cell', 'T cell', 'CD4+ T cell', 'leukocyte']	['endoderm', 'mesoderm']	['immune system']	Mus musculus strain Foxp3CreERT2 x Rosa26YFP CD4-positive, CD25-positive, alpha-beta regulatory T cell male adult (4 months) originated from bone marrow hematopoietic cell	male adult (4 months) strain Foxp3CreERT2 x Rosa26YFP
+ENCSR826JKN	['blood', 'bodily fluid']	['hematopoietic cell', 'T cell', 'CD4+ T cell', 'leukocyte']	[]	['immune system']	Mus musculus strain Foxp3CreERT2 x Rosa26YFP activated CD4-positive, CD25-positive, alpha-beta regulatory T cell male adult (4 months) originated from bone marrow hematopoietic cell	male adult (4 months) strain Foxp3CreERT2 x Rosa26YFP
+ENCSR280ZDP	['embryo']	['stem cell']	[]	[]	Mus musculus strain C57BL/6J G1E	strain C57BL/6J C57BL/6
+ENCSR000CNL	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus liver tissue male embryo (14.5 days)	male embryo (14.5 days) 129
+ENCSR000CNJ	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain C57BL/6J liver tissue male embryo (14.5 days)	male embryo (14.5 days) strain C57BL/6J C57BL/6
+ENCSR000CNK	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain 129.DLCR/DLCR liver tissue male embryo (14.5 days)	male embryo (14.5 days) strain 129.DLCR/DLCR 129
+ENCSR000CMT	[]	['hematopoietic cell', 'progenitor cell', 'myeloid cell']	[]	[]	Mus musculus c-Kit-positive CD71-positive TER-119-negative erythroid progenitor cells male embryo (14.5 days)	male embryo (14.5 days) CD-1
+ENCSR000CMU	[]	['hematopoietic cell', 'progenitor cell', 'myeloid cell']	[]	[]	Mus musculus c-Kit-positive CD71-positive TER-119-positive erythroid progenitor cells male embryo (14.5 days)	male embryo (14.5 days) CD-1
+ENCSR000CMR	[]	['hematopoietic cell', 'progenitor cell', 'myeloid cell']	[]	[]	Mus musculus c-Kit-negative CD71-positive TER-119-positive erythroid progenitor cells male embryo (14.5 days)	male embryo (14.5 days) CD-1
+ENCSR136XSY	['bone element', 'bone marrow']	['hematopoietic cell', 'progenitor cell', 'myeloid cell']	['mesoderm']	[]	Mus musculus strain C57BL/6J erythroid progenitor cell male adult (5-6 weeks)	male adult (5-6 weeks) strain C57BL/6J C57BL/6
+ENCSR793RAV	['bone element', 'bone marrow']	['hematopoietic cell', 'myeloid cell']	['mesoderm']	['circulatory system']	Mus musculus strain C57BL/6J erythroblast male adult (5-6 weeks)	male adult (5-6 weeks) strain C57BL/6J C57BL/6
+ENCSR064IHX	['bone element', 'bone marrow']	['hematopoietic cell', 'progenitor cell', 'myeloid cell']	['mesoderm']	[]	Mus musculus strain C57BL/6J megakaryocyte-erythroid progenitor cell male adult (5-6 weeks)	male adult (5-6 weeks) strain C57BL/6J C57BL/6
+ENCSR000CHP	['embryo']	['stem cell']	[]	[]	Mus musculus G1E	129
+ENCSR732IZK	['spinal cord']	['neural cell']	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl MN1	strain B6NCrl C57BL/6
+ENCSR666HFH	['eye']	['neural cell']	['ectoderm']	['sensory system']	Mus musculus strain B6NCrl Muller cell postnatal (12 days)	mixed sex postnatal (12 days) strain B6NCrl C57BL/6
+ENCSR636NXY	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NCrl C57BL/6
+ENCSR959HKR	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NCrl C57BL/6
+ENCSR742DUR	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NCrl lung tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NCrl C57BL/6
+ENCSR066DPD	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NCrl kidney tissue postnatal (0 days)	postnatal (0 days) strain B6NCrl C57BL/6
+ENCSR876SYO	['embryo']	[]	[]	[]	Mus musculus strain B6NTac;B6NCrl/Lap embryonic facial prominence tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR261ICG	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR204ZTY	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR358MOW	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR552ABC	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR000CCJ	['immune organ', 'thymus', 'endocrine gland']	[]	['endoderm', 'mesoderm']	['endocrine system', 'immune system']	Mus musculus strain B6NCrl thymus tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CBD	['spleen', 'immune organ']	[]	['mesoderm']	['immune system', 'digestive system']	Mus musculus strain B6NCrl spleen tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CAP	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CAN	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NCrl kidney tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CAM	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CFB	['adipose tissue', 'connective tissue']	[]	['mesoderm']	[]	Mus musculus strain B6NCrl brown adipose tissue tissue male adult (24 weeks)	male adult (24 weeks) strain B6NCrl C57BL/6
+ENCSR653AVN	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap liver tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR252GKD	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR577SDJ	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR433ESG	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap liver tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR471SJG	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR985UTP	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR447DOF	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR839WFP	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NTac;B6NCrl/Lap lung tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR305GII	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NCrl lung tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR244ASF	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR176BXC	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NTac;B6NCrl/Lap limb tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR464MQU	['intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap intestine tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR023VJO	['stomach']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap stomach tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR522LXN	['stomach']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl stomach tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR572KYR	['intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl intestine tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR592GQI	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR688ZOR	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR647OTD	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR953HNY	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NCrl kidney tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR990JMN	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR059LYY	['embryo']	[]	[]	[]	Mus musculus strain B6NTac;B6NCrl/Lap embryonic facial prominence tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR057BKH	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR416OYH	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR320UJD	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NCrl kidney tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR669AQL	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NTac;B6NCrl/Lap kidney tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR938MUD	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR106QSU	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR320CCJ	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR654VMK	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR536ILV	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NTac;B6NCrl/Lap kidney tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR198ACZ	['intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap intestine tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR916CBN	['stomach']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap stomach tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR875ZAO	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NTac;B6NCrl/Lap heart tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR052CDF	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NTac;B6NCrl/Lap heart tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR295PFM	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NCrl lung tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR684UWM	['stomach']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl stomach tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR119YTR	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR782DEA	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR318QFY	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR115FTP	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR098AHF	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR193AEW	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR631QAE	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NTac;B6NCrl/Lap limb tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR658TDS	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NTac;B6NCrl/Lap kidney tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR076MXH	['stomach']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap stomach tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR516TYD	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NTac;B6NCrl/Lap kidney tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR846ZTT	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NCrl kidney tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR485GTY	['intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap intestine tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR398TTY	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NCrl lung tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR282OTI	['stomach']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl stomach tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR415FLZ	['stomach']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl stomach tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR604AMS	['intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl intestine tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR154DTK	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NCrl lung tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR288LNF	['stomach']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap stomach tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR100DLL	['intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl intestine tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR333ZWB	['intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap intestine tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR340VNK	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NTac;B6NCrl/Lap lung tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR373OCX	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NTac;B6NCrl/Lap heart tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR377RKW	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR747VPY	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR534HMF	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NTac;B6NCrl/Lap heart tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR406KDB	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR748BQH	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR650UAC	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR924FJQ	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NTac;B6NCrl/Lap lung tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR036YKL	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NCrl kidney tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR488KVB	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR758UAI	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR886DWH	['embryo']	[]	[]	[]	Mus musculus strain B6NTac;B6NCrl/Lap embryonic facial prominence tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR759RVE	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR195NDO	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR765JWZ	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR368RJD	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR731KRE	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR581EJK	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR261OAK	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR067ZDE	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR489HYX	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR323NOC	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR158ONM	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR527EUE	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR554TSO	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR172XOZ	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap forebrain tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR203KIB	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap midbrain tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR185JBL	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap hindbrain tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR486MHP	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR022KDE	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR835BZO	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR167ZGV	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR315ZEU	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR704IWS	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR044SNE	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR335TVR	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR110TIW	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR472YGQ	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap hindbrain tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR427ZJU	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap midbrain tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR637CCT	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR129DIK	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR258YWW	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap forebrain tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR093BYV	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NTac;B6NCrl/Lap neural tube tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR283RFW	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR739DVM	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR928CYU	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR427OZM	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR538SRO	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR000CAJ	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl cortical plate tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR369RBO	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap forebrain tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR721MSV	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap hindbrain tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR717XCU	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR347BFO	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR639KSW	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR571HOT	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR576XBN	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR312BOK	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR161UUY	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR065CJC	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR734IEL	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR547PLI	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR400TGE	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR502WUI	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR128ZCB	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap forebrain tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR373TMR	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR286OKN	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR190RKJ	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR087PLZ	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR718CAJ	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR068XYW	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR014TEJ	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR067FKP	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap midbrain tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR186PIV	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap hindbrain tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR028VCU	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap midbrain tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR511LWL	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NTac;B6NCrl/Lap neural tube tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR000CDS	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl olfactory bulb tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CDM	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NCrl C57BL/6
+ENCSR410YIY	['intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl intestine tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR000ADL	['embryo']	['embryonic cell', 'stem cell']	[]	[]	Mus musculus strain 129/Ola ES-E14	strain 129/Ola 129
+ENCSR000CCW	['gonad', 'testis']	[]	['mesoderm']	['reproductive system']	Mus musculus strain B6NCrl testis tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CBG	['embryo']	['embryonic cell', 'stem cell']	[]	[]	Mus musculus strain Bruce4 ES-Bruce4	strain Bruce4 C57BL/6
+ENCSR000CGO	['embryo']	['embryonic cell', 'stem cell']	[]	[]	Mus musculus strain 129/Ola ES-E14	strain 129/Ola 129
+ENCSR000CGS	['embryo']	['embryonic cell', 'stem cell']	[]	[]	Mus musculus strain Bruce4 ES-Bruce4	strain Bruce4 C57BL/6
+ENCSR000CGP	['embryo']	['embryonic cell', 'stem cell']	[]	[]	Mus musculus strain 129/Ola ES-E14	strain 129/Ola 129
+ENCSR048IZJ	['stomach']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap stomach tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR749PZB	['intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl intestine tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR912IXU	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NCrl kidney tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR798VHN	['stomach']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl stomach tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR430JWT	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NCrl lung tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR751HEG	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR968NPX	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR462BZP	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR780NWL	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR964RRJ	['embryo']	[]	[]	[]	Mus musculus strain B6NTac;B6NCrl/Lap embryonic facial prominence tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR249AUA	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NTac;B6NCrl/Lap lung tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR569UCG	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NTac;B6NCrl/Lap kidney tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR260OUP	['intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap intestine tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR961PNM	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NCrl kidney tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR744LCN	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NCrl lung tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR288OHO	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NTac;B6NCrl/Lap kidney tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR412ODT	['intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl intestine tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR105OGF	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR629AFL	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR274ACJ	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NTac;B6NCrl/Lap limb tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR956ZCG	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR519DNE	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NTac;B6NCrl/Lap heart tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR946RLM	['intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap intestine tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR356LBC	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NTac;B6NCrl/Lap lung tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR293ORS	['stomach']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap stomach tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR755PMX	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR332UCY	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR483DEV	['stomach']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl stomach tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR000AHU	['musculature of body']	[]	['mesoderm']	['musculature']	Mus musculus myocyte originated from C2C12	C3H
+ENCSR286IGS	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR076FAM	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR406VPQ	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR501GBJ	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR212KGS	['embryo']	['embryonic cell', 'stem cell']	[]	[]	Mus musculus strain 129/Ola E14TG2a.4	strain 129/Ola 129
+ENCSR370MSK	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR537AKT	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR707DZS	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR782SUW	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR264TXI	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap forebrain tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR706PSQ	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR755SGK	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap midbrain tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR314FGC	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR525BTK	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR234YTN	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap hindbrain tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR831EKS	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR947QOH	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR973AYQ	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR517UZA	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR161DAW	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR771ILS	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap hindbrain tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR322XHD	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap midbrain tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR579RZO	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NTac;B6NCrl/Lap neural tube tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR402ZLE	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR906UJW	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap forebrain tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR462KTT	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR044SUW	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR345RKE	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NTac;B6NCrl/Lap heart tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR373LNE	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR069XHI	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR000AHS	['musculature of body']	[]	['mesoderm']	['musculature']	Mus musculus myocyte originated from C2C12	C3H
+ENCSR000CGI	['lymph node', 'blood', 'bodily fluid']	['B cell', 'leukocyte', 'hematopoietic cell']	['mesoderm']	['immune system']	Mus musculus strain B10.H-2aH-4bp/Wts CH12.LX	strain B10.H-2aH-4bp/Wts B10.H-2aH-4bp/Wts
+ENCSR000CGL	['lymph node', 'blood', 'bodily fluid']	['B cell', 'leukocyte', 'hematopoietic cell']	['mesoderm']	['immune system']	Mus musculus strain B10.H-2aH-4bp/Wts CH12.LX	strain B10.H-2aH-4bp/Wts B10.H-2aH-4bp/Wts
+ENCSR000ADI	['lymph node', 'blood', 'bodily fluid']	['B cell', 'leukocyte', 'hematopoietic cell']	['mesoderm']	['immune system']	Mus musculus strain B10.H-2aH-4bp/Wts CH12.LX	strain B10.H-2aH-4bp/Wts B10.H-2aH-4bp/Wts
+ENCSR000DHU	['lymph node', 'blood', 'bodily fluid']	['B cell', 'leukocyte', 'hematopoietic cell']	['mesoderm']	['immune system']	Mus musculus strain B10.H-2aH-4bp/Wts CH12.LX	strain B10.H-2aH-4bp/Wts B10.H-2aH-4bp/Wts
+ENCSR000DIX	['embryo']	['stem cell']	[]	[]	Mus musculus G1E	129
+ENCSR000CEX	['spleen', 'immune organ']	['cancer cell']	['mesoderm']	['immune system', 'digestive system']	Mus musculus strain MEL MEL	strain MEL DBA/2
+ENCSR000ADR	['spleen', 'immune organ']	['cancer cell']	['mesoderm']	['immune system', 'digestive system']	Mus musculus strain MEL MEL	strain MEL DBA/2
+ENCSR000CEU	['spleen', 'immune organ']	['cancer cell']	['mesoderm']	['immune system', 'digestive system']	Mus musculus strain MEL MEL	strain MEL DBA/2
+ENCSR898WIS	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap liver tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR607HIQ	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR795UOC	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR889MYY	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR966RAG	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap liver tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR948RYN	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR868FWZ	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR000DHG	['bone element', 'bone marrow']	['hematopoietic cell', 'myeloid cell']	['mesoderm']	['circulatory system']	Mus musculus erythroblast embryo (14.5 days)	mixed sex embryo (14.5 days) CD-1
+ENCSR458FBL	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR258RGT	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR731OMP	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR110MSZ	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR344BPJ	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap liver tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR578RLI	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap liver tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR693UWX	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR000DHT	['bone element', 'bone marrow']	['hematopoietic cell', 'myeloid cell']	['mesoderm']	['skeletal system', 'immune system']	Mus musculus megakaryocyte embryo (14.5 days)	mixed sex embryo (14.5 days) CD-1
+ENCSR000CFF	['bone element', 'bone marrow']	['hematopoietic cell', 'leukocyte', 'myeloid cell']	['mesoderm']	['skeletal system', 'immune system']	Mus musculus strain Bruce4 bone marrow macrophage male adult (8 weeks)	male adult (8 weeks) strain Bruce4 C57BL/6
+ENCSR000CDV	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NCrl C57BL/6
+ENCSR000AHT	['musculature of body']	[]	['mesoderm']	['musculature']	Mus musculus myocyte originated from C2C12	C3H
+ENCSR000AHO	['musculature of body']	['embryonic cell', 'myoblast']	['mesoderm']	['musculature']	Mus musculus C2C12	C3H
+ENCSR000CGK	['lymph node', 'blood', 'bodily fluid']	['B cell', 'leukocyte', 'hematopoietic cell']	['mesoderm']	['immune system']	Mus musculus strain B10.H-2aH-4bp/Wts CH12.LX	strain B10.H-2aH-4bp/Wts B10.H-2aH-4bp/Wts
+ENCSR000CBA	['connective tissue', 'embryo']	['connective tissue cell', 'fibroblast']	[]	[]	Mus musculus strain C57BL/6J embryonic fibroblast male embryo (13.5 weeks)	male embryo (13.5 weeks) strain C57BL/6J C57BL/6
+ENCSR262CSU	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NTac;B6NCrl/Lap lung tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR000CCS	['intestine', 'small intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl small intestine tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CEQ	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CEM	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CCU	['gonad', 'testis']	[]	['mesoderm']	['reproductive system']	Mus musculus strain B6NCrl testis tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR884MYD	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NTac;B6NCrl/Lap lung tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR140YPL	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NTac;B6NCrl/Lap kidney tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR599GVS	['intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl intestine tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR929SEW	['stomach']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl stomach tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR546ANT	['stomach']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl stomach tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR357JII	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NCrl kidney tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR711SVB	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NCrl kidney tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR452WYC	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NTac;B6NCrl/Lap lung tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR895BMP	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NCrl lung tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR140UEX	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NCrl lung tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR346FJG	['stomach']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap stomach tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR639DND	['intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl intestine tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR000CDG	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NCrl kidney tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CDH	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CCQ	['intestine', 'small intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl small intestine tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CEZ	['adipose tissue', 'connective tissue']	[]	['mesoderm']	[]	Mus musculus strain B6NCrl brown adipose tissue tissue male adult (24 weeks)	male adult (24 weeks) strain B6NCrl C57BL/6
+ENCSR000CDF	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR675HDX	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NTac;B6NCrl/Lap heart tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR360ANE	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NTac;B6NCrl/Lap heart tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR574VME	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR846PJO	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR699XHY	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR123MLY	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR000CDK	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NCrl C57BL/6
+ENCSR222IHX	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR582SPN	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR863VHE	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR151APL	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR825ZJV	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR594JGI	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR989LUY	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR241BSK	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR797EYS	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR332JYZ	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap hindbrain tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR066XFL	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR553IWV	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR428GHF	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR254AHA	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap midbrain tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR054JHZ	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap hindbrain tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR265NBM	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NTac;B6NCrl/Lap neural tube tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR320EEW	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap forebrain tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR311YPF	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR966AIB	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR784TLR	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR252ONR	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR671NSS	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR344HHI	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR289SWJ	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR691NQH	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR428OEK	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR094TTT	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap forebrain tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR672ZXY	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap midbrain tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR088UKA	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR275KPI	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR129LAP	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR531RZS	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR891SAW	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR000CCE	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl olfactory bulb tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CDD	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl cortical plate tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CDC	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl cerebellum tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR401GRX	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR897WBY	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR813SCQ	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR905FFU	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR420MUV	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR737QWV	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR481SGM	['embryo']	[]	[]	[]	Mus musculus strain B6NTac;B6NCrl/Lap embryonic facial prominence tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR382DRK	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR988BRP	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR424END	['intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap intestine tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR316CNR	['stomach']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap stomach tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR057SHA	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NTac;B6NCrl/Lap kidney tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR021ALF	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NTac;B6NCrl/Lap limb tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR000CDI	['connective tissue', 'embryo']	['connective tissue cell', 'fibroblast']	[]	[]	Mus musculus strain C57BL/6J embryonic fibroblast male embryo (13.5 weeks)	male embryo (13.5 weeks) strain C57BL/6J C57BL/6
+ENCSR000CDO	['placenta', 'extraembryonic component']	[]	['mesoderm']	['reproductive system']	Mus musculus strain B6NCrl placenta tissue female adult (8 weeks)	female adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR642VYW	['intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap intestine tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR616TJM	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap liver tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR802RET	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR479LFP	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR136GMT	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR175KBJ	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR000CDU	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NCrl C57BL/6
+ENCSR058DOA	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR000CEV	['spleen', 'immune organ']	['cancer cell']	['mesoderm']	['immune system', 'digestive system']	Mus musculus strain MEL MEL	strain MEL DBA/2
+ENCSR075SNV	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap liver tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR032HKE	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap liver tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR302LIV	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR343TXK	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR465PYP	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR255XTC	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR785NEL	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR609OHJ	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap liver tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR079GOY	['intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap intestine tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR862JVD	['blood', 'bodily fluid']	['hematopoietic cell', 'monocyte', 'leukocyte', 'myeloid cell']	['mesoderm']	['immune system']	Mus musculus strain C57BL/6J monocyte adult (5-6 weeks)	adult (5-6 weeks) strain C57BL/6J C57BL/6
+ENCSR000CMQ	['lymph node', 'blood', 'bodily fluid']	['B cell', 'leukocyte', 'hematopoietic cell']	['mesoderm']	['immune system']	Mus musculus strain B10.H-2aH-4bp/Wts CH12.LX	strain B10.H-2aH-4bp/Wts B10.H-2aH-4bp/Wts
+ENCSR000CML	['blood', 'bodily fluid']	['B cell', 'cancer cell', 'leukocyte', 'hematopoietic cell']	['mesoderm']	['immune system']	Mus musculus strain A20 A20	strain A20 BALB/cAnN
+ENCSR000CMK	['bone element', 'bone marrow']	['hematopoietic cell']	['mesoderm']	['skeletal system', 'immune system']	Mus musculus strain 416B 416B	strain 416B B6D2F1/J
+ENCSR000CNP	['spleen', 'immune organ']	['hematopoietic cell', 'cancer cell', 'myeloid cell']	['mesoderm']	['immune system', 'digestive system']	Mus musculus strain MEL MEL-GATA-1-ER	strain MEL DBA/2
+ENCSR000CNN	['spleen', 'immune organ']	['cancer cell']	['mesoderm']	['immune system', 'digestive system']	Mus musculus strain MEL MEL	strain MEL DBA/2
+ENCSR000DHK	['bone element', 'bone marrow']	['hematopoietic cell', 'myeloid cell']	['mesoderm']	['circulatory system']	Mus musculus erythroblast embryo (14.5 days)	mixed sex embryo (14.5 days) CD-1
+ENCSR133EGP	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR487OLC	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR045NOD	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR770OXU	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR419MSI	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR308GFM	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap liver tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR000CAO	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CAF	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NCrl kidney tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CAQ	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NCrl lung tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CFA	['adipose tissue', 'connective tissue']	[]	['mesoderm']	[]	Mus musculus strain B6NCrl brown adipose tissue tissue male adult (24 weeks)	male adult (24 weeks) strain B6NCrl C57BL/6
+ENCSR000CAE	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR442RYY	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR663VWL	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR251LFV	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR080GQM	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NTac;B6NCrl/Lap heart tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR886IHN	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR339LMJ	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR782DGO	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR000CDL	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NCrl C57BL/6
+ENCSR387YSD	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NCrl lung tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR858AUB	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NCrl lung tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR907CPZ	['stomach']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl stomach tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR335WME	['stomach']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap stomach tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR157LYR	['intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap intestine tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR196ENU	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NTac;B6NCrl/Lap kidney tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR883ASH	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NCrl kidney tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR436FYE	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NCrl kidney tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR810EOA	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR091WNX	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR258AED	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR426EZM	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR751AAB	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR645ETR	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR529ERN	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NTac;B6NCrl/Lap limb tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR972WEN	['embryo']	[]	[]	[]	Mus musculus strain B6NTac;B6NCrl/Lap embryonic facial prominence tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR825OWH	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NTac;B6NCrl/Lap lung tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR674PZU	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NTac;B6NCrl/Lap kidney tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR548BKP	['stomach']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl stomach tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR051CUH	['intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl intestine tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR829YGD	['intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl intestine tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR940CMI	['stomach']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap stomach tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR523IIH	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NTac;B6NCrl/Lap lung tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR159RVN	['intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap intestine tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR000CCR	['intestine', 'small intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl small intestine tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CDP	['placenta', 'extraembryonic component']	[]	['mesoderm']	['reproductive system']	Mus musculus strain B6NCrl placenta tissue female adult (8 weeks)	female adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CGN	['embryo']	['embryonic cell', 'stem cell']	[]	[]	Mus musculus strain 129/Ola ES-E14	strain 129/Ola 129
+ENCSR032JUI	['embryo']	['embryonic cell', 'stem cell']	[]	[]	Mus musculus strain 129/Ola E14TG2a.4	strain 129/Ola 129
+ENCSR000ADK	['embryo']	['embryonic cell', 'stem cell']	[]	[]	Mus musculus strain 129/Ola ES-E14	strain 129/Ola 129
+ENCSR914QGB	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR238SGC	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR548BCO	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR511WPK	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR695FPP	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR975QSF	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR450ITF	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR448TTC	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR263CKR	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR157IVC	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR243JOL	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR014MXQ	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR918ZSJ	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR349NIS	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR253IEG	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR496TBX	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR921ILW	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR257JSX	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR826TJQ	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR449EUZ	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR678FIT	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR417TXZ	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap hindbrain tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR037HLB	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap midbrain tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR556ZUY	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap forebrain tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR875KRK	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR141ZQF	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR977DCO	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NTac;B6NCrl/Lap neural tube tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR391WSS	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap midbrain tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR617VBE	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap hindbrain tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR465PLB	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap forebrain tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR272GNQ	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR608QBO	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR992SHK	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR000CCF	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl olfactory bulb tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CAL	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl cerebellum tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CAI	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl cortical plate tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CAZ	['connective tissue', 'embryo']	['connective tissue cell', 'fibroblast']	[]	[]	Mus musculus strain C57BL/6J embryonic fibroblast male embryo (13.5 weeks)	male embryo (13.5 weeks) strain C57BL/6J C57BL/6
+ENCSR488OCA	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NTac;B6NCrl/Lap heart tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR000CFE	['bone element', 'bone marrow']	['hematopoietic cell', 'leukocyte', 'myeloid cell']	['mesoderm']	['skeletal system', 'immune system']	Mus musculus strain Bruce4 bone marrow macrophage male adult (8 weeks)	male adult (8 weeks) strain Bruce4 C57BL/6
+ENCSR000DHQ	['lymph node', 'blood', 'bodily fluid']	['B cell', 'leukocyte', 'hematopoietic cell']	['mesoderm']	['immune system']	Mus musculus strain B10.H-2aH-4bp/Wts CH12.LX	strain B10.H-2aH-4bp/Wts B10.H-2aH-4bp/Wts
+ENCSR000CGH	['lymph node', 'blood', 'bodily fluid']	['B cell', 'leukocyte', 'hematopoietic cell']	['mesoderm']	['immune system']	Mus musculus strain B10.H-2aH-4bp/Wts CH12.LX	strain B10.H-2aH-4bp/Wts B10.H-2aH-4bp/Wts
+ENCSR000CAG	['bone element', 'bone marrow']	[]	['mesoderm']	['skeletal system', 'immune system']	Mus musculus strain B6NCrl bone marrow tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CBC	['spleen', 'immune organ']	[]	['mesoderm']	['immune system', 'digestive system']	Mus musculus strain B6NCrl spleen tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CCI	['immune organ', 'thymus', 'endocrine gland']	[]	['endoderm', 'mesoderm']	['endocrine system', 'immune system']	Mus musculus strain B6NCrl thymus tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000DHR	['bone element', 'bone marrow']	['hematopoietic cell', 'myeloid cell']	['mesoderm']	['skeletal system', 'immune system']	Mus musculus megakaryocyte embryo (14.5 days)	mixed sex embryo (14.5 days) CD-1
+ENCSR000DJB	['embryo']	['stem cell']	[]	[]	Mus musculus G1E	129
+ENCSR000CEW	['spleen', 'immune organ']	['cancer cell']	['mesoderm']	['immune system', 'digestive system']	Mus musculus strain MEL MEL	strain MEL DBA/2
+ENCSR000CDW	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NCrl C57BL/6
+ENCSR234ISO	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap liver tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR000ADQ	['spleen', 'immune organ']	['cancer cell']	['mesoderm']	['immune system', 'digestive system']	Mus musculus strain MEL MEL	strain MEL DBA/2
+ENCSR000CES	['spleen', 'immune organ']	['cancer cell']	['mesoderm']	['immune system', 'digestive system']	Mus musculus strain MEL MEL	strain MEL DBA/2
+ENCSR000CGM	['lymph node', 'blood', 'bodily fluid']	['B cell', 'leukocyte', 'hematopoietic cell']	['mesoderm']	['immune system']	Mus musculus strain B10.H-2aH-4bp/Wts CH12.LX	strain B10.H-2aH-4bp/Wts B10.H-2aH-4bp/Wts
+ENCSR000AHW	['musculature of body']	['embryonic cell', 'myoblast']	['mesoderm']	['musculature']	Mus musculus C2C12	C3H
+ENCSR000AHN	['musculature of body']	[]	['mesoderm']	['musculature']	Mus musculus myocyte originated from C2C12	C3H
+ENCSR000AHQ	['musculature of body']	['embryonic cell', 'myoblast']	['mesoderm']	['musculature']	Mus musculus C2C12	C3H
+ENCSR000CET	['spleen', 'immune organ']	['cancer cell']	['mesoderm']	['immune system', 'digestive system']	Mus musculus strain MEL MEL	strain MEL DBA/2
+ENCSR000CEP	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CEL	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CEK	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000DHV	['embryo']	['stem cell']	[]	[]	Mus musculus G1E	129
+ENCSR000DHW	['lymph node', 'blood', 'bodily fluid']	['B cell', 'leukocyte', 'hematopoietic cell']	['mesoderm']	['immune system']	Mus musculus strain B10.H-2aH-4bp/Wts CH12.LX	strain B10.H-2aH-4bp/Wts B10.H-2aH-4bp/Wts
+ENCSR000DHI	['bone element', 'bone marrow']	['hematopoietic cell', 'myeloid cell']	['mesoderm']	['skeletal system', 'immune system']	Mus musculus megakaryocyte embryo (14.5 days)	mixed sex embryo (14.5 days) CD-1
+ENCSR000DHL	['bone element', 'bone marrow']	['hematopoietic cell', 'myeloid cell']	['mesoderm']	['circulatory system']	Mus musculus erythroblast embryo (14.5 days)	mixed sex embryo (14.5 days) CD-1
+ENCSR253QPK	['embryo']	['embryonic cell', 'stem cell']	[]	[]	Mus musculus strain 129/Ola E14TG2a.4	strain 129/Ola 129
+ENCSR295ZLV	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR242PHH	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR538DPG	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR558NWQ	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR747ZXL	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR962MBB	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR233LBT	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR447BVY	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR639IQR	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR840QFC	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR328WMV	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR455UTX	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NCrl kidney tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR604DCI	['embryo']	[]	[]	[]	Mus musculus strain B6NTac;B6NCrl/Lap embryonic facial prominence tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR871CGP	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NTac;B6NCrl/Lap limb tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR108TWE	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NTac;B6NCrl/Lap lung tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR425FLT	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NTac;B6NCrl/Lap kidney tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR953KTY	['intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap intestine tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR641EME	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NTac;B6NCrl/Lap heart tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR235JCY	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NTac;B6NCrl/Lap heart tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR776RJR	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NCrl lung tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR560CIG	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR467UGM	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR969NXN	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NCrl lung tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR121BWA	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NCrl kidney tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR606AJV	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR582IBX	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR264HHL	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR037HCS	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR510CGB	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR569DBO	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR932BNP	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR027DMG	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR871YCT	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR445UYH	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR535NVF	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR066LZB	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR175QZX	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR272XPJ	['intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl intestine tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR919DDC	['intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl intestine tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR599PKR	['stomach']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl stomach tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR631KAJ	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR872WGX	['stomach']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl stomach tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR352AWJ	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR864OWV	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR205XBQ	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR487RAU	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR809NWL	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR437SFX	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR207UMX	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR066WUD	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR107SLP	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR972MUO	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR087JEN	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR094QZC	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR508HYL	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR764UIE	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR345DDI	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR227UTY	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap forebrain tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR702JYV	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap midbrain tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR066XXZ	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap hindbrain tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR069TDC	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap forebrain tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR951UWY	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap midbrain tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR458PAO	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap hindbrain tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR776QRL	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NTac;B6NCrl/Lap neural tube tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR362PBD	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NTac;B6NCrl/Lap kidney tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR250LXH	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NTac;B6NCrl/Lap lung tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR483KOD	['intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap intestine tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR516KLO	['stomach']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap stomach tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR581FAT	['stomach']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap stomach tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR656AMS	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap liver tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR000CFS	['intestine', 'small intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl small intestine tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CFT	['spleen', 'immune organ']	[]	['mesoderm']	['immune system', 'digestive system']	Mus musculus strain B6NCrl spleen tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CFL	['lymph node', 'blood', 'bodily fluid']	['B cell', 'leukocyte', 'hematopoietic cell']	['mesoderm']	['immune system']	Mus musculus strain B10.H-2aH-4bp/Wts CH12.LX	strain B10.H-2aH-4bp/Wts B10.H-2aH-4bp/Wts
+ENCSR000CFY	['blood', 'bodily fluid', 'spleen']	['hematopoietic cell', 'leukocyte', 'B cell']	[]	['immune system']	Mus musculus strain C57BL/6J splenic B cell male adult (8 weeks)	male adult (8 weeks) strain C57BL/6J C57BL/6
+ENCSR000CFV	['immune organ', 'thymus', 'endocrine gland']	[]	['endoderm', 'mesoderm']	['endocrine system', 'immune system']	Mus musculus strain B6NCrl thymus tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CFO	['embryo']	['embryonic cell', 'stem cell']	[]	[]	Mus musculus strain Bruce4 ES-Bruce4	strain Bruce4 C57BL/6
+ENCSR670YXP	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap liver tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR000AHL	['musculature of body']	['embryonic cell', 'myoblast']	['mesoderm']	['musculature']	Mus musculus C2C12	C3H
+ENCSR000CFU	['gonad', 'testis']	[]	['mesoderm']	['reproductive system']	Mus musculus strain B6NCrl testis tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CEO	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CFQ	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NCrl kidney tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000AHV	['musculature of body']	[]	['mesoderm']	['musculature']	Mus musculus myocyte originated from C2C12	C3H
+ENCSR972MRN	['spleen', 'immune organ']	['cancer cell']	['mesoderm']	['immune system', 'digestive system']	Mus musculus strain MEL MEL	strain MEL DBA/2
+ENCSR239TSZ	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR000CGR	['embryo']	['embryonic cell', 'stem cell']	[]	[]	Mus musculus strain 129/Ola ES-E14	strain 129/Ola 129
+ENCSR000CDE	['embryo']	['embryonic cell', 'stem cell']	[]	[]	Mus musculus strain Bruce4 ES-Bruce4	strain Bruce4 C57BL/6
+ENCSR000CGQ	['embryo']	['embryonic cell', 'stem cell']	[]	[]	Mus musculus strain 129/Ola ES-E14	strain 129/Ola 129
+ENCSR000CGJ	['lymph node', 'blood', 'bodily fluid']	['B cell', 'leukocyte', 'hematopoietic cell']	['mesoderm']	['immune system']	Mus musculus strain B10.H-2aH-4bp/Wts CH12.LX	strain B10.H-2aH-4bp/Wts B10.H-2aH-4bp/Wts
+ENCSR000CCH	['immune organ', 'thymus', 'endocrine gland']	[]	['endoderm', 'mesoderm']	['endocrine system', 'immune system']	Mus musculus strain B6NCrl thymus tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CDJ	['spleen', 'immune organ']	[]	['mesoderm']	['immune system', 'digestive system']	Mus musculus strain B6NCrl spleen tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CCL	['bone element', 'bone marrow']	[]	['mesoderm']	['skeletal system', 'immune system']	Mus musculus strain B6NCrl bone marrow tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CFD	['bone element', 'bone marrow']	['hematopoietic cell', 'leukocyte', 'myeloid cell']	['mesoderm']	['skeletal system', 'immune system']	Mus musculus strain Bruce4 bone marrow macrophage male adult (8 weeks)	male adult (8 weeks) strain Bruce4 C57BL/6
+ENCSR000CDQ	['placenta', 'extraembryonic component']	[]	['mesoderm']	['reproductive system']	Mus musculus strain B6NCrl placenta tissue female adult (8 weeks)	female adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR000CMX	['embryo']	['embryonic cell', 'stem cell']	[]	[]	Mus musculus strain ~20% C57/B6J (MGI.D:C57BL), ~75% 129/Sv (MGI.D:129) and ~5% SJL strains (MGI.D:SJL) WW6	strain ~20% C57/B6J (MGI.D:C57BL), ~75% 129/Sv (MGI.D:129) and ~5% SJL strains (MGI.D:SJL) mixed
+ENCSR000CMW	['embryo']	['embryonic cell', 'stem cell']	[]	[]	Mus musculus strain 129/Ola ES-E14	strain 129/Ola 129
+ENCSR000COH	['embryo']	['embryonic cell', 'stem cell']	[]	[]	Mus musculus strain 129/Ola ZHBTc4	strain 129/Ola 129
+ENCSR319PWR	['embryo']	['embryonic cell', 'stem cell']	[]	[]	Mus musculus strain C57BL/6J R1	strain C57BL/6J C57BL/6
+ENCSR000CMV	['embryo']	['embryonic cell', 'stem cell']	[]	[]	Mus musculus strain 129S1/SvImJ ES-CJ7	strain 129S1/SvImJ 129
+ENCSR000CCV	['gonad', 'testis']	[]	['mesoderm']	['reproductive system']	Mus musculus strain B6NCrl testis tissue male adult (8 weeks)	male adult (8 weeks) strain B6NCrl C57BL/6
+ENCSR655WKX	['intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl intestine tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NCrl C57BL/6
+ENCSR000DHM	['embryo']	['stem cell']	[]	[]	Mus musculus G1E	129
+ENCSR000DHH	['bone element', 'bone marrow']	['hematopoietic cell', 'myeloid cell']	['mesoderm']	['skeletal system', 'immune system']	Mus musculus megakaryocyte embryo (14.5 days)	mixed sex embryo (14.5 days) CD-1
+ENCSR000DHN	['bone element', 'bone marrow']	['hematopoietic cell', 'myeloid cell']	['mesoderm']	['circulatory system']	Mus musculus erythroblast embryo (14.5 days)	mixed sex embryo (14.5 days) CD-1
+ENCSR000DHO	['lymph node', 'blood', 'bodily fluid']	['B cell', 'leukocyte', 'hematopoietic cell']	['mesoderm']	['immune system']	Mus musculus strain B10.H-2aH-4bp/Wts CH12.LX	strain B10.H-2aH-4bp/Wts B10.H-2aH-4bp/Wts
+ENCSR557SVH	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR122CJZ	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR007XTC	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NTac;B6NCrl/Lap heart tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR427ZQB	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR943QUH	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR930AFR	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR972LUE	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR041KEJ	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR765UOU	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR634GFJ	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR345HNA	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR948VPV	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap midbrain tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR325JLI	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR754AXU	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR571WQI	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR689NXE	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap hindbrain tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR365CUP	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap hindbrain tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR065LAB	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap midbrain tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR093DWU	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap forebrain tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR549RVJ	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR668BBX	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR864DSI	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR299DRH	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR071SQK	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR773EGV	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NCrl lung tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR975QEX	['stomach']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl stomach tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR028ZHS	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR498EVD	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NTac;B6NCrl/Lap kidney tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR311LZM	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NTac;B6NCrl/Lap lung tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR466ZQC	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NCrl neural tube tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR299NCJ	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR223FDX	['epithelium', 'embryo']	[]	['ectoderm']	[]	Mus musculus strain B6NTac;B6NCrl/Lap neural tube tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR890ACP	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR137NUN	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR499NUH	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NCrl kidney tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR147PYG	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR316AZB	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR352NVU	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR311TLE	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR894JAS	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR405TGI	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NTac;B6NCrl/Lap kidney tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR698WCJ	['intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap intestine tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR333QJO	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NTac;B6NCrl/Lap limb tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR976GSO	['stomach']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap stomach tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR630AOU	['stomach']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl stomach tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR358XYP	['intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl intestine tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR526JRI	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR961MEP	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR556DLJ	['stomach']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap stomach tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR311VKI	['intestine']	[]	['endoderm']	['digestive system']	Mus musculus strain B6NCrl intestine tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR855NKG	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (15.5 days)	mixed sex embryo (15.5 days) strain B6NCrl C57BL/6
+ENCSR095FDG	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR191XHV	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR125VVG	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap liver tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR846ZCW	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR238ZCJ	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NTac;B6NCrl/Lap lung tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR270WWV	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NTac;B6NCrl/Lap forebrain tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR455REA	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR965JWF	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NTac;B6NCrl/Lap heart tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR098USP	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR779MSI	['embryo']	[]	[]	[]	Mus musculus strain B6NCrl embryonic facial prominence tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR737JHU	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl forebrain tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR769ITO	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl midbrain tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR703TBR	['brain']	[]	['ectoderm']	['central nervous system']	Mus musculus strain B6NCrl hindbrain tissue embryo (10.5 days)	mixed sex embryo (10.5 days) strain B6NCrl C57BL/6
+ENCSR022DED	['limb']	[]	['ectoderm', 'mesoderm']	['musculature', 'skeletal system']	Mus musculus strain B6NCrl limb tissue embryo (13.5 days)	mixed sex embryo (13.5 days) strain B6NCrl C57BL/6
+ENCSR706SZI	['embryo']	[]	[]	[]	Mus musculus strain B6NTac;B6NCrl/Lap embryonic facial prominence tissue embryo (14.5 days)	mixed sex embryo (14.5 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR821GHK	['kidney']	[]	['mesoderm']	['excretory system']	Mus musculus strain B6NCrl kidney tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR579UVB	['lung']	[]	['endoderm']	['respiratory system']	Mus musculus strain B6NCrl lung tissue embryo (16.5 days)	mixed sex embryo (16.5 days) strain B6NCrl C57BL/6
+ENCSR463GJL	['heart']	[]	['mesoderm']	['circulatory system']	Mus musculus strain B6NCrl heart tissue embryo (11.5 days)	mixed sex embryo (11.5 days) strain B6NCrl C57BL/6
+ENCSR341XCL	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NTac;B6NCrl/Lap liver tissue postnatal (0 days)	mixed sex postnatal (0 days) strain B6NTac;B6NCrl/Lap C57BL/6
+ENCSR149GYK	['liver', 'exocrine gland', 'endocrine gland']	[]	['endoderm']	['endocrine system', 'exocrine system', 'digestive system']	Mus musculus strain B6NCrl liver tissue embryo (12.5 days)	mixed sex embryo (12.5 days) strain B6NCrl C57BL/6
+ENCSR000CFZ	['embryo']	['embryonic cell', 'stem cell']	[]	[]	Mus musculus strain Bruce4 ES-Bruce4	strain Bruce4 C57BL/6
+ENCSR857MYS	['embryo']	['embryonic cell', 'stem cell']	[]	[]	Mus musculus strain 129/Ola E14TG2a.4	strain 129/Ola 129
+ENCSR000ADM	['embryo']	['embryonic cell', 'stem cell']	[]	[]	Mus musculus strain 129/Ola ES-E14	strain 129/Ola 129
+ENCSR000ADT	['spleen', 'immune organ']	['cancer cell']	['mesoderm']	['immune system', 'digestive system']	Mus musculus strain MEL MEL	strain MEL DBA/2

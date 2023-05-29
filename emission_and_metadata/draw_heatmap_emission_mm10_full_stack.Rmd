@@ -22,7 +22,7 @@ num_state <- 100
 ```
 
 ```{r}
-annot_fn <- '/Users/vuthaiha/Desktop/window_hoff/full_stacked_mouse/from_jason_061921/state_annotation_processed.csv'
+annot_fn <- '..//state_annotation_processed.csv'
 annot_df <- as.data.frame(read.csv(annot_fn, header = TRUE, stringsAsFactors = FALSE, sep = '\t'))
 read_state_annot_df <- function(state_annot_fn){
 	annot_df <- as.data.frame(read.csv(state_annot_fn, header = TRUE, stringsAsFactors = FALSE, sep = '\t'))
@@ -46,8 +46,8 @@ calculate_gap_rows_among_state_groups <- function(state_annot_df){
 ```
 Draw the emission matrix right here
 ```{r}
-emission_fn <- '/Users/vuthaiha/Desktop/window_hoff/full_stacked_mouse/from_jason_061921/emissions/emissions_100_for_pheatmap.txt'
-save_fn <- '/Users/vuthaiha/Desktop/window_hoff/full_stacked_mouse/from_jason_061921/emissions/emissions_100.png'
+emission_fn <- './data/emissions_100_for_pheatmap.txt'
+save_fn <- './data/emissions_100.png'
 emission_df <- as.data.frame(read.csv(emission_fn, sep = '\t', header = TRUE)) %>% arrange(assay_big_group, assay, organ_order, organ_group)
 colnames(emission_df) <- c('experiments', paste0('S', seq(1,num_state)), colnames(emission_df)[102:length(colnames(emission_df))])
 annot_df <- read_state_annot_df(annot_fn)
@@ -84,7 +84,7 @@ count_chrom_mark_GROUP[,1]
 
 Plot to count the number of experiments for each combination of mark- biosample group
 ```{r}
-output_folder <- '/Users/vuthaiha/Desktop/window_hoff/full_stacked_mouse/from_jason_061921/emissions/one_plot_per_state/biosample_group'
+output_folder <- './data/one_plot_per_state/biosample_group'
 count_chrom_mark_GROUP <- emission_df %>% select(c('experiments', 'mark', 'biosample_group')) %>% group_by(mark, biosample_group) %>% tally() %>% rename('count' = 'n')
 count_chrom_mark_GROUP <- count_chrom_mark_GROUP %>% dcast(mark ~ biosample_group , value.var = 'count') %>% replace(., is.na(.), 0)
 count_chrom_mark_GROUP <- count_chrom_mark_GROUP %>% select(c('mark','brain', 'neuron', 'retina', 'heart', 'lung', 'liver', 'stomach', 'intestine', 'kidney', 'adipose', 'muscle', 'fibroblast', 'white blood cells', 'red blood cells', 'bone marrow', 'thymus', 'spleen', 'testis', 'esc', 'placenta', 'embryo', 'other'))
@@ -125,7 +125,7 @@ for (state_index in seq(num_state)){
 
 
 ```{r}
-output_folder <- '/Users/vuthaiha/Desktop/window_hoff/full_stacked_mouse/from_jason_061921/emissions/one_plot_per_state/organ_slims'
+output_folder <- './data/one_plot_per_state/organ_slims'
 count_chrom_mark_GROUP <- emission_df %>% select(c('experiments', 'mark', 'organ_group')) %>% group_by(mark, organ_group) %>% tally() %>% rename('count' = 'n')
 count_chrom_mark_GROUP <- count_chrom_mark_GROUP %>% dcast(mark ~ organ_group , value.var = 'count') %>% replace(., is.na(.), 0)
 count_chrom_mark_GROUP <- count_chrom_mark_GROUP %>% select(c('mark','brain', 'spinal_cord','eye', 'heart', 'lung', 'liver', 'stomach', 'intestine', 'kidney', 'adipose_tissue', 'breast', 'connective_tissue', 'epithelium', 'limb', 'musculature', 'blood', 'immune_organ', 'lymph_node', 'spleen', 'bone_element', 'adrenal_gland', 'gonad', 'extraembryonic_component', 'placenta', 'embryo',  'unknown'))

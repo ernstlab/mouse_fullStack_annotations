@@ -54,11 +54,11 @@ if (length(args) < 3)
 {
 	stop("wrong command line argument format", call.=FALSE)
 }
-emission_fn <- args[1] # output of ChromHMM LearnModel, also input to this program
+emission_fn <- args[1] # output from prepare_emission_for_plotting.py
 annot_fn <- args[2] # where annotations of states, the state group and state index by groups are stored
-#annot_fn <- '/Users/vuthaiha/Desktop/window_hoff/full_stacked_mouse/from_jason_061921/state_annotation_processed.csv'
-#emission_fn <- '/Users/vuthaiha/Desktop/window_hoff/full_stacked_mouse/from_jason_061921/emissions/emissions_100_for_pheatmap.txt'
-#save_fn <- '/Users/vuthaiha/Desktop/window_hoff/full_stacked_mouse/from_jason_061921/emissions/emissions_100.png'
+#annot_fn <- './data/state_annotation_processed.csv'
+#emission_fn <- './data/emissions/emissions_100_for_pheatmap.txt'
+#save_fn <- './data/emissions/emissions_100.png'
 save_fn <- args[3] # where the figures should be stored
 states_to_plot <- as.integer(args[4:length(args)])
 print(states_to_plot)
