@@ -158,11 +158,11 @@ def main():
 
 
 def usage():
-    print ("python create_excel_painted_overlap_enrichment_output.py")
-    print ("input_fn: the output of chromHMM OverlapEnrichment")
+    print ("python create_excel_painted_overlap_enrichment_output.py <input_fn> <output_fn> <context_prefix> <state_annot_fn>")
+    print ("input_fn: the output of chromHMM OverlapEnrichment showing the fold enrichment between each full-stack state and each external genome annotation")
     print ("output_fn: the name of the excel file that you want to create") 
     print ("context_prefix: the prefix to all the enrichment contexts in this input_fn. For example, if we do enrichments with gnomad variants of varying maf, the column names in input_fn are 'maf_0_0.1<etc>', we can specify context_prefix to gnomad. If we dont need such prefix, specify to empty string. This is useful when we try to write comment on states that are most enriched in each genomic context.")
-    print ('state_annot_fn: where we get all the data of characterization of states')
+    print ('state_annot_fn: where we get all the data of characterization of states, recommended ../state_annotation_processed.csv')
     exit(1)
 
 if __name__ == '__main__':
