@@ -13,14 +13,12 @@ Within this folder:
 You can view the full-stack annotations for the mouse (presented in this manuscript) OR the human (presented in the <a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02572-z"> "sister" manuscript</a>), by using the <a href="ttps://public.hoffman2.idre.ucla.edu/ernst/2K9RS//full_stack/full_stack_annotation_public_release/hub.txt"> track hub link</a>. We provide a very detailed step-by-step instruction on how to view the full-stack annotations using the provided track hub link in the tutorial file <a href="https://github.com/ernstlab/mouse_fullStack_annotations/blob/main/view_ucsc_genome_browser.pptx">view_ucsc_genome_browser.pptx</a>.
 
 # Folders:
-Within each subfolders inside this folder. Currently, our subfolders have not been completely cleaned with documentations. But, we are working on this part of the project. 
+Within each subfolders inside this folder. Each subfolder contains its own readme file.  
 - Folder ```relationship_with_ct_spec_state```: contains code to reproduce the plots in Fig. S6 and S7 of the manuscript.
 - Folder ```process_CTCF_data```: contains code to reproduce Fig. 2F of the manuscript.
 - Folder ```neighborhood```: contains code to reproduce Fig. 2D-E and S2 of the manuscript.
 - Folder ```emission_and_metadata```: contains code to reproduce Fig. 1 of the manuscript
 - Folder ```gene_exp_analysis```: contains code to reproduce Fig. 2C of the manuscript
-- Folder ```analyse_gencode```: contains scripts to obtain bed files of external genome annotations from GENCODE, which are essential for enrichment analysis of mouse full-stack chromatin states with external genome annotations presented in figure 2A.
-- Folder ```analyse_ucsc```: contains code to obtain bed files of external genome annotations from UCSC Genome Browser, which are essential for enrichment analysis of mouse full-stack chromatin states with external genome annotations presented in figure 2A.
 - Folder ```overlap```: contains scripts of calculate the enrichments of mouse full-stack states with different genome annotation. 
 - Folder ```learn_model```: contains scripts to reproduce tabs 'trainData_HistoneChip' and 'trainData_ATACDNase' in Additional File 2 of the paper
 
@@ -35,4 +33,4 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Contact:
-We currently trying to comment the code and provide as much details on how to reproduce the results as possible. If you run into problems, please contact Ha Vu (havu73@ucla.edu) 
+If you run into problems, please contact Ha Vu (havu73@ucla.edu) 
