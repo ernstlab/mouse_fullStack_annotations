@@ -7,7 +7,27 @@ Within this folder:
 - File <a href="https://public.hoffman2.idre.ucla.edu/ernst/2K9RS//full_stack/full_stack_annotation_public_release/mm10/mm10_100_segments_segments.bed.gz">mm10_100_segments_segments.bed.gz</a> contains a simple four column .bed file of **mouse** full-stack state annotation in **mm10** assembly. The fourth column contains a state label with a prefix number that can be used to order the states. The OverlapEnrichment and NeighborhoodEnrichment commands of ChromHMM with the '-labels' option can compute enrichments for this file and order states based on the prefix number.
 - File <a href="https://public.hoffman2.idre.ucla.edu/ernst/2K9RS//full_stack/full_stack_annotation_public_release/mm10/mm10_100_segments_browser.bed.gz">mm10_100_segments_browser.bed.gz</a> contains a browser file of **mouse** full-stack state annotation in **mm10** assembly. This file is compatible to for UCSC genome browser. Since our training data (901 input data tracks) are in mm10, mm10 is the assembly used for original training and annotation.
 
-- Detailed description of states can be found at <a href="https://public.hoffman2.idre.ucla.edu/ernst/2K9RS//full_stack/full_stack_annotation_public_release/mm10/state_annotation_processed.csv"> csv file </a>. The excel version of these files, with more results of the states' overlap enrichments with external annotations can be found in our paper.
+- Detailed description of states can be found at <a href="https://public.hoffman2.idre.ucla.edu/ernst/2K9RS//full_stack/full_stack_annotation_public_release/mm10/state_annotation_processed.tsv"> csv file </a>. The excel version of these files, with more results of the states' overlap enrichments with external annotations can be found in our paper, Additional Files 3-5.
+
+- State group meanings:
+```
+mGapArtf - assembly gaps and artifacts
+mQuies - quiescent
+mHet - heterochromatin
+mZNF - Zinc finger genes
+mReprPC - polycomb repressed
+mReprPC_openC - polycomb repressed and open chromatin
+mOpenC - open chromatin
+mEnhA - active enhancers
+mEnhWk - weak enhancers
+mTxEnh - transcribed enhancers
+mTx - transcription
+mTxEx - transcription and exons
+mTxWk - weak transcription
+mBivProm - bivalent promoters
+mPromF - promoter flank
+mTSS - transcription start sites
+```
 
 # Track hubs on UCSC genome browser:
 You can view the full-stack annotations for the mouse (presented in this manuscript) OR the human (presented in the <a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02572-z"> "sister" manuscript</a>), by using the <a href="ttps://public.hoffman2.idre.ucla.edu/ernst/2K9RS//full_stack/full_stack_annotation_public_release/hub.txt"> track hub link</a>. We provide a very detailed step-by-step instruction on how to view the full-stack annotations using the provided track hub link in the tutorial file <a href="https://github.com/ernstlab/mouse_fullStack_annotations/blob/main/view_ucsc_genome_browser.pptx">view_ucsc_genome_browser.pptx</a>.
