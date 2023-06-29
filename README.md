@@ -1,6 +1,6 @@
 
 # full_stack_ChromHMM_annotations for mouse (mm10)
-Data of genome annotation from full-stack ChromHMM model trained with 901 datasets assaying 14 chromatin marks in 26 different cell or tissue types of the **mouse** genome. This project is an extension of the published manuscript at <a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02572-z"> Genome Biology </a> that introduces an universal (pan-tissue-type) annotation of the **human** genome 
+Data of genome annotation from full-stack ChromHMM model trained with 901 datasets assaying 14 chromatin marks in 26 different cell or tissue types of the **mouse** genome. The paper has been published on <a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-02994-x"> Genome Biology </a>. This project is an extension of the published manuscript at <a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02572-z"> Genome Biology </a> that introduces an universal (pan-tissue-type) annotation of the **human** genome
 # Download links:
 Data of full-stack genome annotations for reference assemblies mm10 can be found <a href="https://public.hoffman2.idre.ucla.edu/ernst/2K9RS/full_stack/full_stack_annotation_public_release/mm10/"> here</a>: 
 Within this folder:
